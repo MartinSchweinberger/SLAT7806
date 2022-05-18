@@ -34,3 +34,8 @@ fig:skinner2
 tab:cards
 tab:numbers
 fig:hans
+activity-1-who-are-you
+activity-2-what-is-research
+activity-3-is-this-research-scenarios-taken-from-borg-2009
+activity-4-types-of-research
+activity-5-conducting-research

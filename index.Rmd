@@ -20,25 +20,25 @@ This is a postgraduate-level course on academic research methods in language and
 
 ### Course Staff {-}
 
-```{r martin, echo=FALSE, out.width= "30%", out.extra='style="float:left; padding:15px"'}
-knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/martin.png")
+```{r martin, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:15px"'}
+knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/martin.jpg")
 ```
 
-Course Coordinator: Dr Martin Schweinberger
+**Course Coordinator: Dr Martin Schweinberger**
 
 Phone: 3365 6374 
 
-Email: m.schweinberger@uq.edu.au
+Email: m.schweinberger\@uq.edu.au
 
 Office: St Lucia campus, Gordon Greenwood Building, Room 32-514
 
-```{r amir, echo=FALSE, out.width= "30%", out.extra='style="float:left; padding:15px"'}
-knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/amir.png")
+```{r amir, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:15px"'}
+knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/amir.jpg")
 ```
 
-Lecturer: Amir Sheikhan
+**Lecturer: Amir Sheikhan**
 
-Email: s.a.sheikhan@uq.edu.au
+Email: s.a.sheikhan\@uq.edu.au
 
 Office: St Lucia campus, Gordon Greenwood Building
 
@@ -57,22 +57,22 @@ Students will be advised of any changes in advance. Dates and times for make-up 
 ### Course Aims {-}
 
  
-The course will introduce the conceptual, analytical and technical tools students need to understand quantitative findings in the language research literature and to use quantitative methods in their own research. It will do this by meeting three aims. The course will provide:
- 
-1. grounding in the basic logic and scope of quantitative reasoning (= statistics) in language research  
-2. exposure to commonly used statistical techniques   
-3. in-depth experience in using R (RStudio)  
+The course aims to introduce research methodology in (applied) linguistics and second language studies. It will present the fundamental skills needed to plan and carry out various types of postgraduate research, ranging from structuring course papers and dissertation, to basic practical data collection and analysis tools and techniques. Topics examined include the nature and types of research, research quality and planning, honesty and ethics in research, library and database searches, developing a research topic and literature review, preparing a research proposal, and critical reading and writing skills. Course assessments will provide the opportunity to apply these skills in relevant research tasks.
  
 
 ### Learning Objectives {-}
 
 After successfully completing this course you should be able to:
 
-1. 	Understand and apply basic statistical tests in applied linguistics and second language acquisition.  
-2. 	Understand the role of quantitative evidence in describing and explaining language learning and use.  
-3. 	Read quantitative research in these areas in a more critical and productive manner.  
-4. 	Use statistical software to analyse and present data.  
-5. 	Write up results for a dissertation or publication.  
+1.  Understand the nature and process of research and familiarize yourself with different research areas in language and culture studies
+	
+2.  Comprehend the basic aspects and components of research methodology, from the inception of a research project to data collection, analysis, and presentation
+	
+3.  Critically review, analyse, and synthesize findings from a range of secondary sources
+	
+4.  Design and present your research proposal in a manner conforming to accepted academic standards in both written and spoken form
+	
+5.  Identify, locate, and effectively use research materials relevant to your field of study
 
 ## Learning Resources {-}
 
@@ -81,18 +81,23 @@ After successfully completing this course you should be able to:
 
 The script for the course is made available on 
 
-[https://MartinSchweinberger.github.io/SLAT7855](https://MartinSchweinberger.github.io/SLAT7829)
+[https://MartinSchweinberger.github.io/SLAT7806](https://MartinSchweinberger.github.io/SLAT7806)
 
 Lecture recordings and tutorial recordings are made available on Blackboard.
 
 ### Recommended Resources {-}
 
-@field2012discovering
+@blaxter2010howto
 
-@gries2021statistics
+@mcdonough1997research
 
-@winter2019statistics
+@dornyei2007research
 
+@duff2007
+
+@perry2007research
+
+@walliman2005research
 
 ### University Learning Resources {-}
 
