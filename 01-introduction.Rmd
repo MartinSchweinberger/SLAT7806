@@ -53,12 +53,7 @@ Unfortunately, this procedure to acquire knowledge does not tell us whether the 
 
 All of the above indicates that we need empirical evidence to determine the rules and laws governing empirical reality but it does not tell us why we need science. As we have established above, only empirical evidence can lead the way to determining what the characteristics of the world we live in are. Science comes in as we, as human beings, are not very good at seeing and understanding the world as it is (in fact, we are not able to do so!). To elaborate, when it comes things we are scared of, we rather rely on emotional narratives rather than things that really do us harm. For instance, we are more scared of what is sometimes referred to as *stranger danger*, i.e. that someone unknown will harm us or people dear to us than people we know while most murders and sexual exploits are committed by people, we know such as our family and friends. Another example would be represented by the movie *Jaws* while mosquitoes or even cows kill more people (mosquitoes are in fact among the most dangerous animals for humans due to the diseases they transmit). 
 
-Besides being more strongly influenced by emotional narratives there are other in-build biases such as our drive to stick to opinions rather than correcting them or switching sides once these are proven incorrect. In other words, we seek confirmation for our believes rather than challenging them. For example,
-
-```{r monty, echo=FALSE, out.width= "40%", out.extra='style="float:right; padding:15px"'}
-knitr::include_graphics("https://slcladal.github.io/images/deal.jpg")
-```
-
+Besides being more strongly influenced by emotional narratives there are other in-build biases such as our drive to stick to opinions rather than correcting them or switching sides once these are proven incorrect. In other words, we seek confirmation for our believes rather than challenging them. 
 
 
 ### Fast and Slow Thinking
@@ -406,6 +401,74 @@ A slightly more elaborate depiction of this scenario with the equivalent steps i
 ***
 
 We will stop here with our introduction to quantitative reasoning. If you are interested in learning more, we highly recommend that you continue with [our tutorial on basic concepts in quantitative research](https://slcladal.github.io/basicquant.html).
+
+
+# Activities
+
+## Activity 1: Who are you?
+
+This activity aims to give you an idea about your fellow students and to get acquainted with them.
+
+You will be sent into break-out rooms in small groups. Introduce yourself to the other members in the break out room:
+1.	What is your name?  
+2.	Where are you from?  
+3.	Where are you right now?  
+4.	What is your age?  
+5.	Have you studied at another university before?  
+6.	Do you have hobbies?  
+7.	Tell them something unexpected or interesting about yourself.  
+8.	What do you think this course will teach you?  
+
+
+## Activity 2: What is research?
+
+This activity aims at making you reflect on research and the characteristics of scientific inquiry.
+
+You will be sent into break out rooms in small groups, please discuss the following questions and post your answers on the Padlet for this week.
+
+1.	How would you define research?  
+2.	What are necessary components of research?  
+3.	How can we distinguish research from unscientific activities?  
+4.	Discuss why research needs to be methodological.  
+
+## Activity 3: Is this research? (Scenarios taken from Borg, 2009)
+
+The purpose of this activity to elicit your view on the kinds of activities that can be called research. There are no right or wrong answers. Read each description below and choose one answer to say to what extent you feel the activity described is an example of research by selecting one of the following answer options, and then give reasons.
+
+Answer options:
+Definitely research
+Probably research
+Probably not research
+Definitely not research
+
+When you finish the task yourself, compare and discuss your answers with your neighbor / in the break-out room.
+
+Scenario	Research?	Why?
+1. A university lecturer gave a questionnaire about the use of computers for language teaching to 500 teachers. Statistics were used to analyse the questionnaire results. The lecturer wrote an article about the work in an
+academic journal.		
+2. To find out which of the two methods for teaching vocabulary was more effective, a teacher first tested two classes. Then for four weeks she taught vocabulary to each class using a different method. After that she tested both groups again and compared the results to the first test. She decided to use the method which worked best in her own teaching.		
+3. The Head of the English Department wanted to know what teachers thought of the new course book. She gave all teachers a questionnaire to complete, studied their responses, then presented the results at a staff meeting.		
+4. A teacher was doing an MA course. She read several books and articles about grammar teaching then wrote an essay of 6000 words in which she discussed the main
+points in those readings.		
+5. Two teachers were both interested in improving discipline in their classes. They observed each other’s lessons once a week for three months and made notes about how they controlled their classes. They discussed their notes and wrote a short article about what they learned for the newsletter of the national language
+teachers’ association.		
+
+## Activity 4: Types of research
+
+What types of research correspond to what number?
+
+```{r types, echo=FALSE, out.width= "80%", out.extra='style="float:left; padding:15px"'}
+knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/typesofresearch.png")
+```
+
+
+## Activity 5: Conducting research
+
+Put the following possible steps of conducting a research project in an order that you think is appropriate.
+
+```{r steps, echo=FALSE, out.width= "80%", out.extra='style="float:left; padding:15px"'}
+knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/steps.png")
+```
 
 
 
