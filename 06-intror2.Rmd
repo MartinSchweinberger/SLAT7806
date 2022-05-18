@@ -1,0 +1,12 @@
+# Working with Tables in R and RStudio
+
+
+This week, we will continue to explore R and RStudio.
+
+
+
+[Back to top](#getting_started_with_r_and_rstudio_2)
+
+
+
+

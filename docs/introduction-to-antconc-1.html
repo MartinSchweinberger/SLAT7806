@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Week 4 Introduction to AntConc | SLAT7806 Research Methods</title>
+  <meta name="description" content="Week 4 Introduction to AntConc | SLAT7806 Research Methods" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Week 4 Introduction to AntConc | SLAT7806 Research Methods" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Week 4 Introduction to AntConc | SLAT7806 Research Methods" />
+  
+  
+  
+
+<meta name="author" content="Martin Schweinberger" />
+
+
+<meta name="date" content="2022-05-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introduction-to-antconc.html"/>
+<link rel="next" href="getting-started-with-r-and-rstudio.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">SHORT TITLE HERE</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#basic-course-information"><i class="fa fa-check"></i>Basic Course Information</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-description"><i class="fa fa-check"></i>Course Description</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-introduction"><i class="fa fa-check"></i>Course Introduction</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-staff"><i class="fa fa-check"></i>Course Staff</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#timetable"><i class="fa fa-check"></i>Timetable</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#aims-objectives-graduate-attributes"><i class="fa fa-check"></i>Aims, Objectives &amp; Graduate Attributes</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-aims"><i class="fa fa-check"></i>Course Aims</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i>Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-resources"><i class="fa fa-check"></i>Learning Resources</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#required-resources"><i class="fa fa-check"></i>Required Resources</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#recommended-resources"><i class="fa fa-check"></i>Recommended Resources</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#university-learning-resources"><i class="fa fa-check"></i>University Learning Resources</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#school-of-languages-and-cultures-learning-resources"><i class="fa fa-check"></i>School of Languages and Cultures Learning Resources</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#other-learning-resources-information"><i class="fa fa-check"></i>Other Learning Resources &amp; Information</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#teaching-learning-activities"><i class="fa fa-check"></i>Teaching &amp; Learning Activities</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-activities"><i class="fa fa-check"></i>Learning Activities</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-plan"><i class="fa fa-check"></i>Course plan</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="text-and-corpus-analysis.html"><a href="text-and-corpus-analysis.html"><i class="fa fa-check"></i><b>1</b> Text and Corpus Analysis</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="text-and-corpus-analysis.html"><a href="text-and-corpus-analysis.html#what-is-text-analysis"><i class="fa fa-check"></i><b>1.1</b> What is Text Analysis?</a></li>
+<li class="chapter" data-level="1.2" data-path="text-and-corpus-analysis.html"><a href="text-and-corpus-analysis.html#text-analysis-at-uq"><i class="fa fa-check"></i><b>1.2</b> Text Analysis at UQ</a></li>
+<li class="chapter" data-level="1.3" data-path="text-and-corpus-analysis.html"><a href="text-and-corpus-analysis.html#a-few-words-about-tools-and-scripts"><i class="fa fa-check"></i><b>1.3</b> A few words about Tools and Scripts</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="basic-concepts-in-text-and-corpus-analysis.html"><a href="basic-concepts-in-text-and-corpus-analysis.html"><i class="fa fa-check"></i><b>2</b> Basic Concepts in Text and Corpus Analysis</a></li>
+<li class="chapter" data-level="3" data-path="introduction-to-antconc.html"><a href="introduction-to-antconc.html"><i class="fa fa-check"></i><b>3</b> Introduction to AntConc</a></li>
+<li class="chapter" data-level="4" data-path="introduction-to-antconc-1.html"><a href="introduction-to-antconc-1.html"><i class="fa fa-check"></i><b>4</b> Introduction to AntConc</a></li>
+<li class="chapter" data-level="5" data-path="getting-started-with-r-and-rstudio.html"><a href="getting-started-with-r-and-rstudio.html"><i class="fa fa-check"></i><b>5</b> Getting Started with R and RStudio</a></li>
+<li class="chapter" data-level="6" data-path="working-with-tables-in-r-and-rstudio.html"><a href="working-with-tables-in-r-and-rstudio.html"><i class="fa fa-check"></i><b>6</b> Working with Tables in R and RStudio</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">SLAT7806 Research Methods</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="introduction-to-antconc-1" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Week 4</span> Introduction to AntConc<a href="introduction-to-antconc-1.html#introduction-to-antconc-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction-to-antconc.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="getting-started-with-r-and-rstudio.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/MartinSchweinberger/SLAT7806/edit/master/04-antconc2.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/MartinSchweinberger/SLAT7806/blob/master/04-antconc2.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
