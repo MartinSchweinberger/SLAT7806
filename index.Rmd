@@ -15,28 +15,14 @@ link-citations: yes
 
 ### Course Description {-}
 
-This course introduces basic statistical techniques used in quantitative research in applied linguistics. The rationale and assumptions for various techniques will be presented and practice given in applying them to data using statistical software packages.
+This is a postgraduate-level course on academic research methods in language and culture studies, with a particular focus on the areas of language use, learning, and teaching. The course covers a wide variety of issues and topics raised in current and seminal works on language acquisition across ages, in different communities, in and out of the classroom context. It is designed to familiarize the students with a range of qualitative and quantitative research techniques and ethical research practices. The students are also introduced to the core steps of conceptualizing, designing, undertaking, and presenting a research project, which are the essential skills for postgraduate students and academics. 
 
-Assumed Background: No background in statistics or mathematics is assumed.
-
-### Course Introduction {-}
-
-This course will examine and apply basic statistical tools used in quantitative research in second language acquisition, applied linguistics and linguistics. The focus will be on quantitative methodology used in coursework dissertation and MPhil/PhD research in applied linguistics and related fields, but the course will be of interest to anyone who wants a better understanding of quantitative methods in language research.
- 
-The course has three aims. It will provide
- 
-1. grounding in the basic logic and scope of quantitative reasoning (= statistics) in language research  
-2. exposure to commonly used statistical techniques   
-3. in-depth experience in using R (RStudio)  
- 
- 
-Statistical methodology in language research is very broad and has different levels of sophistication. The course will endeavor to introduce the conceptual, analytical and technical tools you need to understand quantitative findings in the research literature and possibly use these techniques in your own research. However, the use of a given statistical technique is determined by the specific research question and study goals. Given the breadth and study-specific nature of quantitative methodology, an introductory course like this can only provide the basic conceptual framework for carrying out research and an introduction to the techniques used.  As a result, there will be a strong emphasis on discovery-based learning. You will be expected to locate, learn and use the resources necessary to carry out and report specific statistical analyses. You will also will present your findings to the other students, both individually and in groups. In other words, you will be expected to be both a learner and a teacher.
-
-Course Changes in Response to Previous Student Feedback
-
-Previous student feedback has been incorporated in this profile.
 
 ### Course Staff {-}
+
+```{r martin, echo=FALSE, out.width= "30%", out.extra='style="float:left; padding:15px"'}
+knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/martin.png")
+```
 
 Course Coordinator: Dr Martin Schweinberger
 
@@ -46,6 +32,15 @@ Email: m.schweinberger@uq.edu.au
 
 Office: St Lucia campus, Gordon Greenwood Building, Room 32-514
 
+```{r amir, echo=FALSE, out.width= "30%", out.extra='style="float:left; padding:15px"'}
+knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/amir.png")
+```
+
+Lecturer: Amir Sheikhan
+
+Email: s.a.sheikhan@uq.edu.au
+
+Office: St Lucia campus, Gordon Greenwood Building
 
 
 ### Timetable {-}
