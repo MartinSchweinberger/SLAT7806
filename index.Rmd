@@ -11,17 +11,15 @@ link-citations: yes
 
 # Preface {-}
 
-## Basic Course Information {-}
-
-### Course Description {-}
+## Course Description {-}
 
 This is a postgraduate-level course on academic research methods in language and culture studies, with a particular focus on the areas of language use, learning, and teaching. The course covers a wide variety of issues and topics raised in current and seminal works on language acquisition across ages, in different communities, in and out of the classroom context. It is designed to familiarize the students with a range of qualitative and quantitative research techniques and ethical research practices. The students are also introduced to the core steps of conceptualizing, designing, undertaking, and presenting a research project, which are the essential skills for postgraduate students and academics. 
 
 
-### Course Staff {-}
+## Course Staff {-}
 
-```{r martin, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:15px"'}
-knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/martin.jpg")
+```{r martin, echo=FALSE, out.width= "20%", out.extra='style="float:right; padding:15px"'}
+knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/master/images/martin.png?raw=true")
 ```
 
 **Course Coordinator: Dr Martin Schweinberger**
@@ -32,8 +30,10 @@ Email: m.schweinberger\@uq.edu.au
 
 Office: St Lucia campus, Gordon Greenwood Building, Room 32-514
 
-```{r amir, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:15px"'}
-knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/amir.jpg")
+<br>
+
+```{r amir, echo=FALSE, out.width= "20%", out.extra='style="float:right; padding:15px"'}
+knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/master/images/amir.png?raw=true")
 ```
 
 **Lecturer: Amir Sheikhan**
@@ -43,7 +43,7 @@ Email: s.a.sheikhan\@uq.edu.au
 Office: St Lucia campus, Gordon Greenwood Building
 
 
-### Timetable {-}
+## Timetable {-}
 
 Timetables are available on the UQ Public Timetable.
 
@@ -51,16 +51,13 @@ Additional Timetable Information
 
 Students will be advised of any changes in advance. Dates and times for make-up classes are made available to students in advance via Blackboard.
 
-## Aims, Objectives & Graduate Attributes {-}
-
-
-### Course Aims {-}
+## Course Aims {-}
 
  
 The course aims to introduce research methodology in (applied) linguistics and second language studies. It will present the fundamental skills needed to plan and carry out various types of postgraduate research, ranging from structuring course papers and dissertation, to basic practical data collection and analysis tools and techniques. Topics examined include the nature and types of research, research quality and planning, honesty and ethics in research, library and database searches, developing a research topic and literature review, preparing a research proposal, and critical reading and writing skills. Course assessments will provide the opportunity to apply these skills in relevant research tasks.
  
 
-### Learning Objectives {-}
+## Learning Objectives {-}
 
 After successfully completing this course you should be able to:
 
@@ -77,99 +74,95 @@ After successfully completing this course you should be able to:
 ## Learning Resources {-}
 
 
-### Required Resources {-}
-
 The script for the course is made available on 
 
 [https://MartinSchweinberger.github.io/SLAT7806](https://MartinSchweinberger.github.io/SLAT7806)
 
 Lecture recordings and tutorial recordings are made available on Blackboard.
 
-### Recommended Resources {-}
+**Recommended Resources**
 
-@blaxter2010howto
+The following books are highly recommended.
 
-@mcdonough1997research
-
-@dornyei2007research
-
-@duff2007
-
-@perry2007research
-
-@walliman2005research
-
-### University Learning Resources {-}
-
-It is strongly recommended to attend the following UQ Library Trainings:
-
-1. R with RStudio: Getting started  
-2. R reproducible reports with R Markdown and knitr  
-3. R data manipulation with RStudio and dplyr: introduction  
-4. R data visualization with RStudio and ggplot2: introduction  
+```{r, echo=FALSE}
+biblio <- bibtex::read.bib("book.bib")
+```
 
 
-Access to required and recommended resources, plus past central exam papers, is available at the UQ Library website (http://www.library.uq.edu.au/lr/SLAT7829).
+* `r capture.output(print(biblio["blaxter2010howto"]))`
+
+* `r capture.output(print(biblio["mcdonough1997research"]))`
+
+* `r capture.output(print(biblio["dornyei2007research"]))`
+
+* `r capture.output(print(biblio["duff2007"]))`
+
+* `r capture.output(print(biblio["perry2007research"]))`
+
+* `r capture.output(print(biblio["walliman2005research"]))`
+
+
+**University Learning Resources**
+
+Access to required and recommended resources, plus past central exam papers, is available at the UQ Library website (http://www.library.uq.edu.au/lr/SLAT7806).
 
 The University offers a range of resources and services to support student learning. Details are available on the myUQ website (https://my.uq.edu.au/).
 
-### School of Languages and Cultures Learning Resources {-}
+**School of Languages and Cultures Learning Resources**
 
 [Student Support at the SLC](http://www.languages-cultures.uq.edu.au/student-support)
 
-### Other Learning Resources & Information {-}
+**Other Learning Resources & Information**
 
 See Blackboard for Learning Resources. 
 
 ## Teaching & Learning Activities {-}
 
-### Learning Activities {-}
-
 Recording of Lectures: Please be aware that teaching at UQ may be recorded for the benefit of student learning. If you would prefer not to be captured either by voice or image, please advise your course coordinator before class so accommodations can be made. For further information see PPL 3.20.06 Recording of Teaching at UQ.
 
-### Course plan {-}
+## Course plan {-}
 
 ```{r tt, echo = F, eval = T, message=FALSE, warning=FALSE}
 library(dplyr)
 library(flextable)
-weeks <- paste0("Week ", 1:13)
-content <- c(
-  "Introduction to the course",
-  "What is Text and Corpus Analysis?",
-  "Basic concepts",
-  "Introduction to AntConc",
-  "Using AntConc for Text and Corpus Analysis",
-  "Getting started with R and Rstudio",
-  "Working with table and texts",
-  "Introduction to Inferential Statistics",
-  "Regression Analysis 1: Model Fitting",
-  "Regression Analysis 2: Testing assumption",
-  "Regression Analysis 3: Types of Regressions",
-  "Regression Analysis 4: From fixed to mixed",
-  "Trees and round-up"
+Week <- paste0("Week ", 1:13)
+Topic <- c(
+  " Introduction to the course and to research",
+  "Conceptualising a research project",
+  "Designing a research project ",
+  "Qualitative research",
+  "Quantitative research",
+  "Reading and writing research effectively",
+  "Academic integrity",
+  "Research of text and talk",
+  "Action research in language classroom",
+  "Presenting and Analysing Data",
+  "Corpus Linguistics",
+  "Experimentation, Surveys & Questionnaires",
+  "Summary and Outlook"
 )
-scriptchapter <- c(
-  "Preface and Introduction",
-  "Basic Concepts in Quantitative Research",
-  "Basic Concepts in Quantitative Research",
-  "Getting started with R and RStudio",
-  "Introduction to R and RStudio",
-  "Descriptive Statistics",
-  "Introduction to Data Visualization with R",
-  "Descriptive Statistics",
-  "Simple and Multiple Regression",
-  "Simple and Multiple Regression",
-  "Logistic Regression",
-  "Mixed-Effects Regression",
-  "Tree-based Models"
+Readings <- c(
+  "Blaxter (Chapter 1); Walliman (Chapter 1)",
+  "Blaxter (Chapters 2 and 4)",
+  "Blaxter (Chapters 3 and 6)",
+  "Blaxter (Chapters 7 and 9)",
+  "Blaxter (Chapters 7 and 9)",
+  " Blaxter (Chapter 4 and 10)",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
 )
-data.frame(weeks, content, scriptchapter) %>%
+data.frame(Week, Topic, Readings) %>%
   as.data.frame() %>%
   flextable::flextable() %>%
   flextable::set_table_properties(width = .95, layout = "autofit") %>%
   flextable::theme_zebra() %>%
-  flextable::fontsize(size = 12) %>%
-  flextable::fontsize(size = 12, part = "header") %>%
+  flextable::fontsize(size = 11) %>%
+  flextable::fontsize(size = 11, part = "header") %>%
   flextable::align_text_col(align = "left") %>%
   flextable::set_caption(caption = "Overview of the course activities by week.")  %>%
   flextable::border_outer()
