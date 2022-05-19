@@ -54,8 +54,28 @@ Students will be advised of any changes in advance. Dates and times for make-up 
 ## Course Aims {-}
 
  
-The course aims to introduce research methodology in (applied) linguistics and second language studies. It will present the fundamental skills needed to plan and carry out various types of postgraduate research, ranging from structuring course papers and dissertation, to basic practical data collection and analysis tools and techniques. Topics examined include the nature and types of research, research quality and planning, honesty and ethics in research, library and database searches, developing a research topic and literature review, preparing a research proposal, and critical reading and writing skills. Course assessments will provide the opportunity to apply these skills in relevant research tasks.
- 
+1. The course aims to introduce research methodology in (applied) linguistics and second language studies. 
+
+2. It will present the fundamental skills needed to plan and carry out various types of postgraduate research, ranging from structuring course papers and dissertation, to basic practical data collection and analysis tools and techniques. 
+
+3. Topics examined include the nature and types of research, research quality and planning, honesty and ethics in research, library and database searches, developing a research topic and literature review, preparing a research proposal, and critical reading and writing skills. 
+
+4. Course assessments will provide the opportunity to apply these skills in relevant research tasks.
+
+## Flipped Classroom Design{-}
+
+This is a flipped course with both online and face-to-face components.
+
+* You are expected to have watched the lectures/listened to the podcasts as well as have read through the slides before you attend the tutorials. The slides and lectures are all available online on Blackboard both as videos and as podcasts. 
+
+* The tutorials take place as face-to-face sessions, either online and on-site and they are recorded. Any materials you need for the tutorials, e.g. tutorial slides, activity handouts with exercises, videos, or any other materials are available online on Blackboard.
+
+
+* In addition to the lectures and tutorials, you will need to read relevant chapters of books which are listed on Blackboard.
+
+All resources above are essential for successful assessment completion!
+
+
 
 ## Learning Objectives {-}
 
@@ -167,4 +187,6 @@ data.frame(Week, Topic, Readings) %>%
   flextable::set_caption(caption = "Overview of the course activities by week.")  %>%
   flextable::border_outer()
 ```
+
+## Assessments {-}
 
