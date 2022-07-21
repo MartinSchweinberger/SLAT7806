@@ -49,6 +49,17 @@ Email: s.a.sheikhan\@uq.edu.au
 
 Office: St Lucia campus, Gordon Greenwood Building
 
+<br><br>
+
+```{r giang, echo=FALSE, out.width= "20%", out.extra='style="float:right; padding:15px"'}
+knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/master/images/GiangTran.jpg?raw=true")
+```
+
+**Lecturer: Giang Tran**
+
+Email: h.tran6\@uq.edu.au
+
+Office: St Lucia campus, Gordon Greenwood Building
 
 ## Timetable {-}
 
@@ -209,7 +220,7 @@ There may be minor changes to the learning activities due to public holidays. St
 library(dplyr)
 library(flextable)
 Assessment <- c("Weekly Online Study Tasks", "Annotated Bibliography", "Research Proposal")
-DueDate <- c("Weeks 2 to 11 (Aug. 1 - Oct. 10): must be submitted before Monday 9 am of each week", 
+DueDate <- c("Weeks 3 to 12 (Aug. 8 - Oct. 17): must be submitted before Monday 9 am of each week", 
              "End of week 9 (Sep. 23):  must be submitted before Friday 4 pm",
              "Two weeks after week 13 (Nov. 11): must be submitted before Friday 4 pm")
 Weighting <- c("30%", "30%", "40%")

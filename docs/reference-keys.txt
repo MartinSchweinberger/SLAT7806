@@ -42,3 +42,14 @@ activity-5-conducting-research
 tab:ass
 the-scientific-circle
 activities
+outline
+assumptions
+falsification
+features
+variables
+variable-scales
+research-designs
+corpora
+descriptive-and-inferential-statistics
+strengths-and-weaknesses
+key-points
