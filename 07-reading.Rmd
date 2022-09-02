@@ -1,0 +1,244 @@
+# Reading and writing research effectively
+
+Hi, everyone, and thank you for joining me for today's lecture. The topic we're going to be discussing today is reading and writing research effectively with a particular focus on the structure of research papers. I hope you'll find the content of today's lecture useful for your own academic writing.
+
+So, today we'll start with a very broad overview of academic writing as one of the steps in the research process. And we're going to go through why academic writing is considered to be so challenging by many researchers.
+
+Then we will focus on the structure of research papers, and I will present you with a structure that's considered to be quite standard across different academic fields. Then we'll go through each section of a research paper, and I'll let you know what is expected in terms of both content and length. We will then discuss referencing with a particular focus on APA referencing. And then we will conclude with some tips for academic writing. Okay, let's dive in.
+
+As usual, we're going to start our discussion with the basics. So, academic writing is seen as a difficult task. And the reason for this difficulty lies in the fact that when you're learning the rules of academic writing, you are drawing on a variety of sources, which provide you both with explicit guidelines and also implied expectations.
+
+So, you need to be very attentive into picking up on those messages, and also very proactive in consolidating your knowledge. So, we're going to start with discussing the explicit guidelines for academic writing. So, these can be derived from research methods courses, such as the one that you're doing right now, and a variety of textbooks dedicated to academic writing.
+
+So, on the slide here, you see that there are textbooks that are dedicated primarily to academic writing for graduate students and that are intended to help students in their progress with academic writing. There are also textbooks that focus on a particular aspect of academic writing, such as grammar.
+
+Another source for an explicit guidance in terms of academic writing and expected paper structure comes from the explicit feedback that students receive from their supervisors, researchers receive from their colleagues and courses, and researchers in general receive during the process of peer review from journal reviewers, and journal editors. So, this feedback may vary depending on individual preferences and experiences.
+
+This feedback and the tips you will receive may vary from person to person and be quite different from one area to the next. We're now moving on to the implied expectations. So, this is where it gets a little bit murky, because implied expectations is something that you need to be attentive to. But it's not necessarily some things that you would be able to verbalize or find a set of guidelines about. So, here, implied expectations are derived from becoming familiar with the literature in your area, and noticing expected and accepted conventions. So, one of the examples here may be a question whether the use of direct quotes is appropriate and acceptable or discouraged in your particular field.
+
+When we're talking about academic writing, and becoming familiar with those explicit and implicit expectations, a good advice to share is that practice makes perfect. So, the longer you try to perfect your academic rating, the more success you're likely going to achieve.
+
+So, now we're moving onto purposes and features of academic writing. So, there are a lot of misconceptions actually, about what aim academic writing is set out to pursue. So, the purposes of academic writing include things like conveying a message. So, ultimately, what you would like to do as a researcher is you would like to disseminate your findings and communicate this new knowledge that you have acquired to as wide an audience as possible.
+
+So, here you would like to either share new information that you have obtained through your research process, or maybe a new take on existing information, first of all with other researchers in your community, but also with a broader society as well, especially if your research has some practical and socially important implications.
+
+So, you would like to promote further discussion, deeper understanding and continued investigation on the topic. So, keeping these purposes in mind, all we need to think about what is the best way to actually achieve those things. And one way to achieve conveying a clear, unambiguous message is organizing your writing in a consistent way so that the readers know exactly where to find the information that they’re looking for. and academic papers and thesis and other pieces of academic writing are usually organized in what is known as an M read structure.
+
+And I think you can guess what it stands for. So, I is for introduction, L for Literture Review, M, for methods, R stands for results, and aD and stands for and discussionn. So, this is the structure that's accepted across a variety of different research fields. And it is definitely the organization that is expected in social sciences, including linguistics and applied linguistics. You also need to make your paper relevant and coherent, which means that you include the information that is essential for your reader to understand what you're talking about. But you do not include any redundant information, which is likely to make your reader confused.
+
+And then finally, you need to make sure that the message that you're trying to communicate is very clear and unambiguous. There is a misunderstanding about research papers being aimed at specialist audience in the way that you should use a lot of jargon and specialized language. While in fact, even though you do indeed target this very expert specialist audience, you still should aim for your writing not to be obscure or convoluted. 
+
+So, we will discuss this structure of a research papers a bit more. Even though there are definitely some variations on the structure that are possible, largely speaking, as its structure remains fairly consistent across a variety of different fields. So, let us start with a reminder that we write research papers in order to communicate this new information that we have obtained throughout the course of our investigation. And to be able to convey this information clearly, research papers need to organize this information in a consistent and predictable way. So, what that means is that when a reader encounters a research paper on a particular topic, they should be able to anticipate what is coming in each of the sections of the research paper.
+
+Generally speaking, most journals require researchers to follow the ILMRaD structure that I have referenced before. So, it means that we're going through introduction, methods, results and discussion in that exact sequence. So, if we look at the structure, we would notice that information is presented from broad to more specific to broad again, of course, some variations on the structure are possible, but they don't disrupt the sequence of information presentation.
+
+So, say, if we add the conclusion, at the end, after the discussion, we would still be discussing the broader outcomes of our findings. And the general guideline here is to always consult with a particular journal that you're aiming to submit your paper to, as they provide you with explicit instructions on what kinds of structure and what kinds of sections they expect from the submissions. So, having this set, fixed, and easily anticipated structure allows for easy familiarization with academic literature.
+
+So, even though it may seem forbidding at first, because of the specialist language that a lot of research papers use. Once you know what to expect, it really becomes a matter of getting to know the jargon of a particular area. But then the organization of papers remains largely consistent.
+
+So, this may be one of my favorite metaphors when it comes to metaphors in the language  sciences -and that's the metaphor for a research paper structure being represented as an hourglass shape. So, the reason I like it so much is that not only does it illustrate the movement of the information from broad at the top to specific, right at the middle to broad again at the bottom, it also perfectly reflects that interconnection between different sections of the paper.
+
+So, here I've tried to color code it for you to make it a little bit clearer. So, we start with an introduction. And in this very first section, what we aim to do is we aim to provide a general outlook on the problem under investigation. So, here, we try to refrain from using any jargon, any specialized concepts, any particular theories that we would like to refer to as our framework.
+
+Here, we entice our reader, and explain the significance of the study to them. Why is it important to conduct this research? What kind of social practical theoretical benefits would it bring us? Where is the gap in the knowledge? And we try to write this up  in a way that's easily accessible to a reader that may not be a specialist in our area. So, here, you would see that introduction is color coded in the same color, as conclusion.
+
+And what I was trying to do here is to highlight that the conclusion brings us back to that level of generalization. So, once again, in our conclusion, we're trying to really extrapolate our findings beyond our population. And we're looking at the broader implications. And we're suggesting future directions for research and things like that.
+
+And so therefore, the introduction and the conclusion, are the two areas in our paper, when we have the widest outlook on the problem under investigation, and your conclusion calls back to your introduction, but now, through the lens of actually having the findings and being able to interpret the findings and relate them to the everyday life, to the real life problems that you have been trying to solve. So, in many ways, the introduction and the conclusion, they're aiming at the same goal.
+
+Then after we have composed our general introduction to the topic, we move on to the literature review. And in the literature review, what we do is we consult previous sources on our topic of interest. And we see what has been done and what hasn't been done, where the gap is, where the methodological issues are, and how we can improve previous research.
+
+So, as you see, literature review still falls under a fairly broad part of the hourglass shape. But it is considerably narrower than the introduction, because you try to specialize and specify your area of inquiry to your particular research interest. And your literature review is concluded by your research question or your research aim or hypothesis if they're applicable there.
+
+So, what this means is that  at the end of your literature review your should be able to show to the reader what has been done, what has not been done and why your study is necessary. So, after a synthesis and analysis of what has been done before should then be able to point to  a very particular narrow topic that has not been addressed or that was addressed in a suboptimal way prior to the moment of conducting your study.
+
+So, like the introcuction can be linked to the conclusion, the literature review can be linked to the discussion, as, once you obtain your results, and you're able to interpret them, you need to relate them back to the  literature that you have been reviewing in your literature review section. So, what that means is that you try to position your findings to the existing research in your field of interest.
+
+So, you try to say whether your findings are in line with some of the previous studies that have been conducted or you need to state where your findings contradict previous research. So, that's why the literature review and the discussion are highlighted in the same colors. So, the research aim and the research question, obviously need to be very well justified by your literature review.
+
+So, by the time your reader comes to read your research question and your research aim, there should be no doubt in their mind about why this issue is worth investigating what kind of contribution your study would make, and also why you're investigating it. So, they need to be convinced that there is indeed a gap in the literature and then there is a need for your research to fill in the gap.
+
+The methods section falls right in the middle of the hourglass shape.
+
+Recall how we have discussed that the method is extremely detailed and describes what you have done in a very precise and  specific way. In qualitative research, you also include lots of examples that aim to provide support of a justification for your decisions. When the study has used an experimental setting, sometimes the entire stimulus set is presented so that other researchers can reproduce your study. So, that's why it is the narrowest part of your study. Your method is the specification of what you have done to achieve your research.
+
+Then, after you have outlined the methodology, you move on to describing your results, which are in the same color as the research questions and the research aims because your results provide direct responses to those questions and aims. So, the difference between the results the discussion and the conclusion is that your results are very particular to the population that you have investigated. The discussion then positions those findings within the broader context of the existing literature. And then the conclusion outlines the implications, limitations and directions for future research.
+
+So, in this part of the lecture, we're going to go through the sections of research paper, and hopefully, you'll find a lot of information that I'm presenting to you quite familiar, because the first few weeks of our semester were intended to reflect the initial sections of a research paper. So, we started with conceptualizing a research topic, then we moved on to designing a research question and doing a literature review.
+
+And then we proceeded to the methodology, and then quantitative and qualitative data. So, I think you'll, you'll be able to find a lot of correspondences with what we have learned so far.
+
+Okay, so we're beginning with an introduction. And as I've mentioned, the introduction provides you with the general information and, so-to-say a “welcome” to the research area you are dealing with. So, once again, the idea here is to invite your reader into your research area, and to gently guide them through some of the important concepts and ideas without overwhelming them with a particular jargon from the get go.
+
+So, your introduction needs to contain a very clear, unambiguous statement of the research topic and its importance. So, here we're asking ourselves, what we know about our area of study, and what is yet to be discovered. And these are the two things that really need to come through in your general introduction.
+
+Here, we're also focusing on making the relevance of our research very transparent. So, you are convincing your reader about the necessity of your research, and you're explaining why exactly it needs to be done. And then finally, you can also find some expository information and how the rest of the paper is going to be organized.
+
+So, here recall how I said that your reader should never be surprised about what's to come in terms of the structuring of your research paper, they should be able to anticipate where they're finding certain details. And this is why it is common, at the end of introduction, to write a  paragraph about how the following sections of the paper are going to be organized-  once again informing your reader about what to expect from the rest of the paper.
+
+So, we're then moving on to the literature review. And the literature review aims to cover some relevant concepts and terminology, explain relevant themes. And the themes are actually serving as the basis for separating the literature review into subsections. So, usually, you're referring and synthesizing and describing previous studies that have been done on the topic.
+
+So, in your literature review, it is expected that you present critical analysis of previous findings and approaches. So, you're not only listing what has been done, you're not only describing previous studies, but you're linking them together. You're juxtaposing their findings, and you're constructively criticizing and finding gaps and flaws in their methodological approaches, with the aim to justify your own question.
+
+So, here, your literature review provides you with theoretical framework, and also the motivation for your research question and aim. Literature Review culminates by the clear statement of the study objectives. And depending on your area of investigation, it may be a statement of a research inquiry. In case you're doing an exploratory study, and you're not yet at a stage where you're able to develop a specific question. It could be the research question and aim, or hypothesis, if that's possible, and if that's applicable to the particular studies that you're conducting.
+
+So, a couple of things that I would like to remind you about here: it is really important that  the research aism that you are stating here are achievable. So, it is impossible to try and find solutions for problems such as world peace or war. So, you need to ensure that you're keeping your research achievable, and limit its scope to a doable scale. If you don't do that, the outcome is going to be likely that the reader is not going to be convinced that the study you set out to do is actually going to be achievable with the resources that they think that you might have.
+
+So, one final note here is that the introduction and the literature review are sometimes combined into a single section. And so when that's the case, usually, this section is not divided into any more smaller sub sections. That's, for instance, the case in the area of psycholinguistics. And what you would see in the psycholinguistic papers is that the paper starts with an introduction, and then it goes straight into the Methods section. So, there are no additional subsections, there is no indication that the author of the paper is going to provide you with a literature review. Even though that's still what they're doing, they're still providing you with a background for their studies just conventionally, not how it is represented in writing.
+
+Okay, so the method section is almost always divided into sub-sections. So, we have discussed three potential sub sections for the method section, such as the participants, the stimuli, and the procedure. But many other variations are possible depending on the study design and the specific needs of the research project.
+
+So, your method section needs to be concise, specific, and to the point. So, your reader needs to get a very clear picture on how to conduct your study, and they should know how to replicate your design. So, that's why as I said, you're providing them not only with the description of what you have done, but also with specific examples of your stimulus that have with information on the participant group that you have recruited. So, once again, your study can be replicated.
+
+Your methods are usually comprising about 10 to 15% of your paper. So, as I said, it should be quite concise. But because it doesn't require any in depth critical analysis, it is actually quite straightforward to write. And if you see it expanding beyond the 10 or 15% of the paper, you know that maybe some of the components are redundant, and they could be moved to an appendix, for example.
+
+So, results is the section that very heavily depends on the type of study that you're conducting. So, the basic aim of the results section is to state and report your findings. It can also be divided into sub sections if you're investigating multiple issues, or measuring multiple variables.
+
+So, the way you present your results, and the way you structure your content depends on the research type that you're undertaking. So, for quantitative studies, you would use descriptive and inferential statistics and you would present a lot of numerical data and the data that occurs in the quantitative studies’ results section is not interpreted. So, it is stated and presented, but the interpretations are left until the discussion section. 
+
+In qualitative studies of the situation is a little bit different. So, data is often reported and interpreted in this single section. And in a way it means that results emerged with a discussion. So, that brings us to the discussion. 
+
+It is always a good idea to begin your discussion by restating your study objectives, whether that's your research questions or your research aim, so obviously you don't need to just copy paste from your introduction.
+
+Or your literature review, but you need to paraphrase your research objectives here. And the reason for that is your reader has just been presented with a lot of new information. And they're coming out of the results section, which in some of the research types, is very heavy with statistical formulas numerical data, visual presentation, it could be very rich in different example.
+
+So, they could really benefit from you as the author guiding them through how you interpret your findings. And this interpretation obviously begins with once again zeroing in on what the initial purpose was. So, after you have restated your question, you may want to proceed to summarizing and evaluating your findings. 
+
+So, remember, in the results section, you don't do that  - you just neatly state what you have found, you do not necessarily relate one finding to the other. It is the discussion section when that happens.
+
+And so your findings need to be evaluated in light of both your research question your aims hypothesis, and also the previous literature. So, basically, here, what you're trying to say is what is the theoretical framework that you have adopted has been applicable? Have the theories that you have examined and reviewed, been upheld or rejected? Where does your study fit in with other studies that have been done on a similar topic? Is it in line with a group of studies? Or is that completely unlike anything else, and why that's the case. So, here, it would also be quite useful to make a comment about how normal or expected or unexpected your findings and the potential reasons for that. So, maybe you have tested a population that has never been tested before.
+
+And therefore you have found something that is just completely different from what has been done previously. You may also want to mention whether your method allows you to collect reliable data. So, can you read the trust your findings, have you gathered enough observations to make any conclusive remarks about what is happening? And then you also need to inform your reader about where your findings fit in a broader research context.
+
+So, what that means is that he you may want to step out your particular area, and maybe try to interpret your findings from an interdisciplinary perspective. So, how other researchers may want to use your findings, what takeaway message you would like for them to be able to gain from being familiar with your research. And so this last question provides us with a perfect transition from the discussion section to the conclusion section.
+
+So, if you recall, the hourglass shape, your conclusion section is the broadest section at the end of your paper. And here, what you do is you explain theoretical and practical implications of your study. So, how do they advance our knowledge on the topic? And how can we use your findings practically, and here is where we circle back to the significance of your studies that you have already presented, as well as in your introduction. We analyze the strength and the limitations of the study that has been undertaken.
+
+So, one of the common errors occur when writing a conclusion section is an overt focus on limitations exclusively, without acknowledging the value of the study. So, those two things need to be balanced in how they are presented and the amount of potential that's given to both of them.
+
+Another important point to mention here is that when you're identifying your limitations, if possible, it would be good if you can make suggestions on how they can be rectified in future studies, and why it was not feasible to address those limitations at the stage of the study design, so that would show that you have really taken a thoughtful approach to developing your study, and you have thought of potential shortcomings and flaws of the studies that you're conducting, but you had good reasons to maybe design it in the way that you have designed it.
+
+Here you also make recommendations for future work. So, whatever variables you were not able to implement in your study design are very useful here. So, you may suggest another population, another age group, another dependent variable to be investigated another context. So, whatever comes to mind that would enrich our current understanding of the topic that you have been working on is worth mentioning in the future recommendations.
+
+And on the structural note, as I said previously, conclusion is quite often combined with the discussion section. And what that means is that the final two to three paragraphs of the discussion section are dedicated to the concluding remarks.
+
+Okay, so I think you would notice that even though I went through all of the major sections in the research paper, there are still a few things that I have overlooked. In particular, that's the title and the abstract, which are both very important components of a research paper, because those are the first things that we encounter when we evaluate was a paper is something that we would like to read, something that we're interested in, and something that's relevant to our own study. So, we're going to start this discussion with talking about the title.
+
+So, the title should be concise, specific and informative; a good rule of thumb is that your title should be about 10 to 12 content words. It should provide us with a sense of the study's main focus, and its objective. It also should provide the keywords for bibliographic indexing.
+
+So, when you're searching for a relevant paper, what those search engines do is that they utilize those keywords to be able to tailor their algorithms to the keywords that you're inputting. And so therefore, structuring your title is crucial for your paper to be able to reach your target audience. And ideally, your title should also interest and hook in your reader.
+
+So, if you can think of a creative or a fun way to structure and present your title that will always work to your benefit. It will most likely change during the process of actually conducting your research study, because you will gain a deeper understanding of your topic. And so it is very likely that you will actually start with a working title and then it will be revised and refined as you progress through the writing process.
+
+Your abstract in many ways is similar to your title, because there was always quite concise. Usually, the guidelines are around 200 words. But once again, that's some things that would change journal to journal. And for instance, if you're applying to go to a research conference, where only an abstract submission is required, instead of a full paper submission, the abstracts there are a bit longer. So, they can go up to 300 to 400 words with additional visual information such as graphs and tables and things like that.
+
+So, your abstract follows the same hourglass structure as your full paper. However, instead of having a section dedicated to each part of the hourglass shape, you only have one or two sentences that represent each section. So, title and abstract, are usually finalized as the very last step of your research writing process. And that's because at that point, you have a full picture of what you were trying to achieve, what you have actually achieved and what it all means.
+
+So, it allows you for the most precise account of your research project. And you really need to be precise, if you're so limited in terms of the word count. And so, I would like to conclude this part of the lecture by talking to you about the structure of a research proposal.
+
+So, so far, I have been saying that there are some variations and research papers structured depending on your area depending on the journal requirements and things like that. However, we also need to acknowledge that there are different types of pieces of academic literature.
+
+So, for example, the structure of a book is going to be different to the structure of a paper thesis is quite similar to a paper however, obviously, each section provides the reader with a much more in depth account of say, a previous literature or a much more detailed depiction of the methodology that has been employed. research proposal structure, however, different differs quite substantially from the structure of a research paper.
+
+And so what we see here is that the title is an intro literature review and method do not change. Neither this sequencing changes nor the content that goes into each of those sections’ changes. The only thing that I would like to remark on here is that in your Methods section, instead of writing that in the past tense, so participants were recruited, this methodology was employed, etc. You're writing it in future tense, obviously, because you haven't undertaken the project yet. You don't have any results, discussion or conclusion sections, for obvious reasons, since you're proposing the study, you haven't gotten around to actually collecting any data yet.
+
+But you also may consider adding extra sections that would inform other people who are reading your proposal about how you intend to undertake the project. And so here, you would write about possible study outcomes and implications, which is kind of very similar to what you would write in your discussion and conclusion. But instead of asserting that, that's what happened, you're predicting that that's what is likely to happen.
+
+And here, it would be good to have a good balance between outlining the theoretical and practical implications. You also outline your proposed budget, where you specify a very detailed cost breakdowns, and you justify why you need that funding. So, he, you may want to include the necessary equipment that is required for you to undertake your project, and your research assistance from, for example, specialists in the field, and things like that. So, pretty much you dedicate a particular number of hours to each task. And then you also specify the associated costs.
+
+You provide the timeline for your project with intermittent milestones, and also a preliminary final date of the project completion. And then you also specify what kind of outputs are expected after the project has been completed. And so here, we're taking about both the research outputs such as potential publications, or maybe professional workshops on developing research skills that you will be able to conduct after you have undertaken the project.
+
+And also, some of the engagement or outreach outputs that we can think of, such as public talks that to be done in broader communities are not necessarily aimed at specialized audience of other researchers. And also, whether undertaking your project will allow you to gain some media presence that will obviously be very good for popularizing and promoting interest in your particular research area.
+
+Okay, so this concludes this particular section of our lecture, what I would like to point out is that we're going to go into discussing the references, but one section that we're not going to touch upon in this lecture is the Appendix which contains all of the materials or examples or additional information that did not have space in the main body of the paper.
+
+And it is quite common to put your materials in an Appendix or long tables detailing statistics, for example. 
+
+References are an important component of an academic paper.
+
+And referencing is a skill and just just like academic writing, it requires some training and practice. So, let's begin our discussion of referencing by understanding why referencing is important. So, first of all, your references demonstrate the depth and breadth of your reading. So, basically, if you have a sufficient number of references, it convinces your reader that you're an expert in your field and you're sufficiently familiar with what has been done previously.
+
+Referencing also enables the reader to locate the sources that are referred to in your paper. So, academics rely on published sources, to be able to inform them about what has been done in a particular area. And so therefore the references serve as guides that allow researchers to check the research that another piece of research is based on and it also provides information of where to search for additional relevant materials that may be of interest or relevance to our own studies.
+
+When it comes to refencing, attention to (tiny) detail is crucial. 
+
+When referencing other sources, your aim should be to paraphrase the source and to  avoid direct quotes. Also, you should aim to synthesise what is written in other sources and avoid second-hand information (“as cited in…”). Finally, you should strive to 
+
+diversify your citations – avoid exclusively referring to dated sources or to works of a single author/group of authors
+
+Prioritise peer-reviewed sources
+
+Formatting guidelines differ depending on the referencing style
+
+APA (American Psychological Association) – most frequently used in social sciences
+
+Referencing conventions
+
+Formatting is important! Number is important!
+
+Remember to provide support to the statements you make
+
+e.g., “Previous studies have shown …” needs support of at least two citations
+
+APA
+
+References
+
+Clahsen, H., & Felser, C. (2006). Grammatical processing in language learners.
+
+Applied Psycholinguistics, 27, 3–42.
+
+Lardiere, D. (2007). Ultimate attainment in second language acquisition: A case study. Mahwah, NJ: Lawrence Erlbaum.
+
+Wen, Z., Miyao, M., Takeda, A., Chu, W., & Schwartz, B. D. (2010). Proficiency effects and distance effects in nonnative processing of English number agreement. In K. Franich, K. M. Iserman, & L. L. Keil (Eds.), Proceedings of the 36th Boston University Conference on Language Development (pp. 646– 659). Somerville, MA: Cascadilla Press.
+
+In-text citations (one-to-one correspondence with References)
+
+As demonstrated in a previous study (Clahsen & Felser, 2006)… As Clahsen and Felser (2006) suggested…
+
+Past research indicates that certain grammatical structures are difficult for second language learners to acquire (Clahsen & Felser, 2006; Lardiere, 2007; Wen, Miyao, Takeda, Chu, & Schwartz, 2010).
+
+Multiple in-text citations are arranged in alphabetical order
+
+Aim to paraphrase, but if you use a direct quote, add page number to your in-text citation
+
+When citing a paper with 3-5 authors for the first time you need to list all authors; after that you can refer to it as either (Wen et al., 2010) or Wen et al. (2010)
+
+Part 5: Tips for academic writing
+
+Academic writing is prescriptive
+
+Should not use casual and informal language Should not be vague or ambiguous
+
+Should avoid redundancy and repetition
+
+Should facilitate reading and guide the reader through the paper Should not be concerned with personal views and opinions
+
+Should be consistent in spelling, punctuation, formatting, and referencing
+
+Part 6: Key points
+
+Quality academic writing takes time and planning
+
+It is always the case that you need to read a lot more material than you will end up using in your final 
+
+paper
+
+The process of writing doesn’t neatly map on to the paper structure Since academic writing is conventional, practice does make Why should you care about academic writing…
+
+…especially if you are not planning to become a professional researcher?
+
+Teaches important skills of logical and justified argumentation
+
+Encourages clarity of expression
+
+Professionally, these skills could assist with the following tasks:
+
+Structuring cover letters for job applications
+
+Applying for funding and promotion opportunities
+
+Writing and presenting progress reports
+
+In your personal life, they contribute to the ability to critically evaluate and consolidate information (e.g., presented in the news) and to respectfully engage with different opinions
+

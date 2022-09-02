@@ -1,0 +1,150 @@
+# Research of Text and Talk
+
+
+-Hello and thank you for joining me for our today's discussion of researching text and talk. So when we talk about text and talk, what we're referring to very broadly is discourse. In some sources, you will also see discourse being identified as language in use, or language and context, even though those terms are not entirely interchangeable, very close to one another.
+
+-So when you see the terms discourse, language in use text and talk, for the purposes of this lecture, please consider them interchangeable. So let's begin with identifying why researching language use is an important task.
+
+-So whether we're constructing a piece of written text, or whether we're preparing a spoken presentation, whether we're using our language spontaneously in day to day conversation, or if we're structuring something that is pre planned and edited language in use is actually very revealing of who we are, and about our environment.
+
+-So if we consider language in use in production, we can look at it as a tool for either conscious or subconscious self expression, and identification. So for instance, when I'm recording this lecture at the moment, I self identify as a university lecturer, rather than my parents daughter, for example, my subconscious self expression is my foreign accent.
+
+-So even though that's not something that I may want to consciously reveal to my listeners, that just something that naturally comes through in my speech. In terms of speech, perception, language in use is a gateway to somebody's background, a reflection of social and cultural conventions, and a representation of accepted linguistic patterns and norms. So all in all, language in the US, provides us with a very interesting outlook, not just on how language works, but also how it works in the broader context of culture and society.
+
+-The main question we're going to be trying to address today is how do we analyze language in use, and my aim is to introduce you to many methods in the course of this one very short lecture. So we're going to start by looking at sociolinguistics. In other words, the interconnections between the language and the society, then we will move to bilingualism research, and we will focus in particular on code switching.
+
+-So using two or more languages within this course, we will then turn to the analysis of literally texts, or stylistics. Then we will talk about discourse analysis, and we will conclude our discussion by talking about corpus linguistics. So, as you can see, those five bullet points are all very broad areas of linguistic and applied linguistic research. So, therefore, each of those individually could have merited an entire semester worth of materials.
+
+-Therefore, today, what we're going to do is we're only scratching the surface on what is possible to be achieved within each of those frameworks, and hopefully, it will give you an idea and an inspiration to look further into each of those linguistic areas. Okay, so let's begin.
+
+bilingualism as a research area has gone a lot of attention recently, and it can be examined from a variety of different perspectives. For instance, we can look at cognitive benefits of being a bilingual individual, or we can
+ 
+
+
+look at bilingual education and relevant policymaking. Today, however, as we're looking at language in use, we're going to look at one process one behavior that is very typical of bilingual individuals, and that's code switching.
+
+-So let's begin by defining code switching. So generally speaking, code switching is the mixing of two or more languages depending on how many languages an individual knows in discourse. So at a level of, for example, a sentence or beyond a single sentence. So, more broadly, we can say that individuals who command over two or more codes are capable of code switching.
+
+-And so by codes, what we mean is different registers, formal versus informal. So imagine a situation where you're talking to your friend, and then you see your lecturer approaching you Chances are that you were talking informally with a friend. But both of you would be able to switch in the situation to a more formal register. If you're a speaker have multiple language varieties, a standard and non standard variety.
+
+-Depending on the situation you're in, you will also be able to choose which variety is more appropriate. code switching can also be evident depending on the mode of communication that you're using. So consider how you're sending a message, an email, and how you talk in a face to face conversation, chances are, all of those modes of communication will yield different linguistic behaviors. And then finally, parallel linguistic features, or the use of gestures and fake facial expressions.
+
+-Once again, depending on the situation, or even depending on the mood that you're in, you would utilize those para linguistic features quite differently. code switching as a process is sensitive to differences in contexts of use. So the situation, the interlocutor, and also the speakers in the choices and desires. And then the choice of code is not always delivered.
+
+-Sometimes there is and sometimes it is natural. So let's consider the following example, by Comedy Central. And let's look in particular, at different types of general code switching patterns and try to identify Well, the speaker's here are switching between registers, language varieties, modes of communication, or parallel linguistic features. Alright, let's watch.
+
+-‘My wife loves the theater, and it's super great. Unfortunately, the orchestra is already filled up, but they do have seats left in the dresser. So if you want to get the tickets right now they Oh, man, I'm gonna get that one dude in it that you love and what are you not almost there, I hope it gets up at 630 in the pocket.’
+
+-Okay, so both of the speakers were using English as the language throughout the short clip. So therefore, it's not the mixing of two more languages in discourse, per se. Yet, it is very, very clear that they were code switching. And the code switching here is between two different language varieties Standard English, and non standard African American vernacular.
+
+-So let's have a look at a very brief history of our understanding of code switching as a process. Initially, it was viewed as a deficiency in speech planning and language use, and identified as insufficient adherence to one
+ 
+
+
+language in a constant speech situation deviation from the norm. So therefore, code switching was seen as undesirable behavior.
+
+-And based on that, parents were actually advised to only prefer the dominant language of the society over the minority a heritage languages, out of the worry about learning more than a single language at a time would confuse the child and out of fear that none of the linguistic systems that they're acquiring is going to be acquired in full.
+-However, since there has been more than 50 years of research, we now understand code switching as a normal linguistic process, and an indication of a wider expressive repertoire. And there's a natural linguistic realization of belonging to two cultures.
+
+-So currently, we're actually looking at code switching as something that is natural and more or less inevitable in bilingual speech. There are obviously individual differences and preferences as some bilinguals are really good at keeping to a single language at a particular situation. But usually, when a speaker acknowledges that they're talking to an interlocutor, who also possesses proficiency of the two languages that they come on, code switching is something that occurs quite naturally.
+
+-And finally, let's conclude this section by going through the types of code switching before identifying why it is important to know about code switching as a process and what can we do with this knowledge. So the first type of code switching is known as situational or domain based. So basically here we'll look at distinct social functions for different languages.
+
+-For instance, language one is used at home. And language two is used outside of home, as a home language is usually the community minority language. And outside home language is usually the dominant society language. So to give you an example, that would be my case, I use Russian at home, and I use English pretty much everywhere else, including my professional context.
+
+-The second type of code switching is known as addressee based. So here, we are constrained by conversation partners. And we can use our code switching to either include somebody in conversation, or to exclude them by using the language or the code that they're unfamiliar with. So a good example here would be a musical artist that use more than their native language and switch to English in their song.
+
+-Or, for instance, they switch from English to their heritage or minority language. And therefore they are including a wider global audience and giving them access to their songs. And then the final type of code switching is known as metaphorical. So here we're using language to define the situation, rather than letting the situation define our choice of language.
+
+-So here, we're making a marked choice, which means that in a way, this choice is noticeable, unusual, unexpected, and usually, such choice emphasizes our group identity. A good example here would be the UN address by jacinda ardern, who is the New Zealand Prime Minister, so two years in a row now she is opening and
+ 
+
+
+closing her speech using Teto Maori, in addition to English, and therefore, she emphasizes her identity as a New Zealander.
+
+-Okay, so, bilingualism and multilingualism actually outnumbers monolingual so if we look at the world's population, so bilingualism is actually a norm. Therefore, it is really important to understand how multiple languages are used on societal and individual levels, and to promote the use of heritage and minority languages rather than discourage them.
+
+Therefore, we need to continue normalizing bilingualism and code switching and public domains and perceive it as normal linguistic expression. bilingualism as a research area has gone a lot of attention recently, and it can be examined from a variety of different perspectives.
+-For instance, we can look at cognitive benefits of being a bilingual individual, or we can look at bilingual education and relevant policymaking. Today, however, as we're looking at language use, we're going to look at one process one behavior that is very typical of bilingual individuals. And that's code switching. So let's begin by defining code switching.
+
+-So generally speaking, code switching is the mixing of two or more languages, depending on how many languages and individual knows in this course. So at a level of, for example, a sentence or beyond a single sentence. So, more broadly, we can say that individuals who command over two or more codes are capable of code switching. And so by codes, what we mean is different registers, formal versus informal. So imagine a situation where you're talking to your friend, and then you see your lecturer approaching you, chances are that you were talking informally with a friend.
+
+-But both of you would be able to switch in the situation to a more formal register. If you're a speaker of multiple language varieties, a standard and a non standard variety. Depending on the situation you're in, you will also be able to choose which variety is more appropriate. code switching can also be evident depending on the mode of communication that you're using. So consider how you're sending a message, an email, and how you talk in a face to face conversation.
+
+-Chances are, all of those modes of communication will yield different linguistic behaviors. And then finally, para linguistic features or the use of gestures and fake facial expressions. Once again, depending on the situation or even Depending on the mood that you're in, you would utilize those para linguistic features quite differently. code switching as a process is sensitive to differences in contexts of use. So the situation, the interlocutor, and also the speakers in the choices and desires, and then the choice of code is not always delivered. Sometimes it is, and sometimes it is natural.
+
+-So let's consider the following example, by Comedy Central. And let's look in particular, at different types of general code switching patterns and try to identify Well, the speaker's here are switching between registers, language varieties, modes of communication, or parallel linguistic features. Alright, let's watch.
+ 
+
+
+-‘My wife loves the theater and it's super great. Unfortunately, the the orchestra is already filled up, but they do have seats left in the dresser. So if you want to get the bat tickets right now. Okay, yeah, cool. Man, I'm gonna get one dude in it that you love. And he will be in there, I hope he gets up at 630 we just got mugged right now.
+
+-Okay, so both of those speakers were using English as the language throughout the short clip. So therefore, it's not the mixing of two more languages in discourse, per se. Yet, it is very, very clear that they were code switching. And the code switching here is between two different language varieties Standard English, and non standard African American vernacular.
+
+-So let's have a look at a very brief history of our understanding of code switching as a process. Initially, it was viewed as a deficiency in speech planning and language use, and identified as insufficient adherence to one language in a constant speech situation deviation from the norm. So therefore, code switching was seen as undesirable behavior.
+
+-And based on that, parents were actually advised to only prefer the dominant language of the society over the minority a heritage languages out of the worry is that learning more than a single language at a time would confuse the child and out of fear that none of the linguistic systems that they're acquiring is going to be acquired in full.
+
+-However, since there has been more than 50 years of research, we now understand code switching as a normal linguistic process, and an indication of a wider expressive repertoire. And there's a natural linguistic realization of belonging to two cultures. –
+
+-So currently, we're actually look at code switching as something that is natural and more or less inevitable in bilingual speech. There are obviously individual differences and preferences as some bilinguals are really good at keeping to a single language at a particular situation. But usually, when a speaker acknowledges that they're talking to an interlocutor who also possesses proficiency of the two languages that they command, code switching is something that occurs quite naturally.
+
+-And finally, let's conclude this section by going through the types of code switching before identifying why it is important to know about code switching as a process, and what can we do with this knowledge. So the first type of code switching is known as situational or domain based. So basically here we'll look at distinct social functions for different languages.
+
+-For instance, language one is used at home and language two is used outside of home, as a home language is usually the community minority language. And the outside home language is usually the dominant society language. So to give you an example, that would be my case, I use Russian at home and I use English pretty much everywhere else, including my professional context. The second type of code switching is known as addressee based.
+ 
+
+
+-So here, we are constrained by conversation partners. And we can use our code switching to either include somebody in conversation, or to exclude them by using the language For the code they're unfamiliar with. So a good example here would be a musical artist that use more than their native language and switch to English in their song.
+
+-Or, for instance, they switch from English to their heritage or minority language. And therefore they are including a wider global audience and giving them access to their songs. And then the final type of code switching is known as metaphorical. So here we're using language to define the situation, rather than letting the situation define our choice of language. So here, we're making a marked choice, which means that in a way, this choice is noticeable, unusual, unexpected, and usually, such choice emphasizes our group identity. A good example here would be the UN address by Jacinda Ardern, who is the New Zealand Prime Minister, who has been opening is opening and closing her speech using Teto Maori in addition to English, and therefore, emphasizing her identity as a New Zealander.
+
+-Okay, so, bilingualism and multilingualism actually outnumbers monolingual so if we look at the world's population, so bilingualism is actually a norm. Therefore, it is really important to understand how multiple languages are used on societal and individual levels, and to promote the use of heritage and minority languages rather than discourage them.
+-Therefore, we need to continue normalizing bilingualism and code switching and public domains and perceive it as normal linguistic expression. Okay, so we're now turning our attention to stylistic analysis of texts. Initially, this area of investigation was reserved exclusively to literary texts. However, recently, it's been extended to other areas as well.
+
+-So let's begin with identifying what's realistic analysis of texts actually is otherwise known as simple as stylistics. It is a study of the devices in languages that are considered to produce expressive or literary style. As I said, traditionally, it was applied to literary texts only. However, recently, it has been extended to a variety of texts. So for instance, we can consider film scripts, song lyrics, and the use of language on the internet and in text messaging, as appropriate sources for the stylistic analysis of texts.
+
+-So in this part of the lecture, I'm going to give you two examples of how we can employ stylistics and what it means for the language development and language change in general, and for such areas as translation. So the first example is going to be based on a literary text that is, I'm sure familiar to many. And here we're going to look at characterization in Harry Potter, and what challenges it presents for translators. So the first character we're going to look at is Severus Snape.
+
+-So as many proper names used in the Harry Potter series, Severus Snape is not a name that has been chosen at random. And you see that the stylistic devices employed in this name is alliteration as it begins as the first name and the second name, both begin with the letter S.
+
+-He also invokes Verity, through its Latin fruit, and the last name, invoke snake imagery, which is appropriate because Severus Snape is the head of the slithering house for which the snake is the symbol. So, such dense use of
+ 
+
+
+stylistic devices presents a challenge for the translators when they're trying to adapt the source text into their, into their native languages. And let's have a look at how translators with different backgrounds have taken on this particular challenge.
+
+-So if we look at Italian Severus Snape has been translated into Severus be torn, which means that the alliteration is sacrificed. But the imagery of the snake is preserved because petone in Italian, means Python. Similarly, in French, alliteration is no longer preserved as the character was renamed as civil who Hogue which essentially means several as arrogant, which once again, assess characterization as though in a different way, if we compare it to the original text, and then in version, the character was named Severus snag, and you can hear that the alliteration is there.
+
+-However, the last name actually loses any of its snake Association because snag actually doesn't have any meaning in Russian, for example, in the way that it is spelled in the books. The second character I'd like to draw attention to is Hagrid. But in this case, we're not going to be talking about the name of the character but rather the way Hagrid speaks. And the way JK Rowling actually wrote Hagrid is that he speaks with a West Country accent.
+-So he frequently uses words like your instead of you are me instead of my self, me dad, and you was instead of you were JK Rowling also makes a point of frequently mentioning that Hagrid never finished his wizarding education which may also have contributed to the choice of this particular accent. And so, it was a challenge for translators to actually adopt Haggard's way of speaking so that it is still indicative of his background. In a lot of versions of Harry Potter around the world, Hagrid was just made as a speaker who uses more informal collocations.
+-In other instances, these distinctions in accent were dropped entirely. But I think the most interesting example comes from Japanese where Hagrid is speaking into hokku dialect, which is considered to be a rural dialect of Japanese. And if my understanding is correct, when Tohoku speakers are presented, say on Japanese television, sometimes the utterances are even subtitled because they are quite different from what is considered to be standard Japanese.
+
+-So the point of this example is to show you that stylistic devices whether in linguistic names or a pronunciation for train pronunciation, present considerable difficulty for translators, as the translators task is not only to faithfully interpret and translate the message, but also preserve the tone and the context of this message. And so sometimes, it is important to find a balance between those two tasks.
+
+-So the second example of stylistic analysis of text comes from the language is on the internet, which usually is presented in its written form, but at the same time shows creativity in the way it accommodates for the limitations of written language. So for instance, what we notice here is that emoji is very frequently used as nonverbal gesture, or environmental cues.
+
+-Some emoji, however, have developed functions that go beyond that initial characterization. For instance, clap emoji is used to create a rhythm to a particular utterance and is added for emphasis. If you would explore the use of clap emoji on Twitter, you would see that is frequently associated with the tweets that have an activist theme to them. capitalization and repetition of letters, is used to convey emotional effect.
+ 
+
+
+
+-In particular, an extreme case of that is what we know as cry typing, which is either something that's used to signify emotional distress, or sometimes performative, emotional distress and cry typing pretty much stands for typing in a way that you can still infer the meaning of the sentence, but with frequent typographic and grammatical errors, which would convey that the person is crying so hard, they cannot actually see what they're typing.
+
+-And then on the other hand, minimal punctuation, and no use of capital letters whatsoever, would invoke a flat and sarcastic tone. And that is something that is also a deliberate choice, rather than, say, a laziness in using the language. If you're interested in the language use on the internet, I can highly recommend the book by Gretchen McCulloch who is a Canadian linguist because internet understanding the new rules of language, she goes through the examples that I'm demonstrating the younger slide and many, many more.
+
+-And what I would like to highlight at the end of this part of the lecture is that the language used on the internet does not showcase a decline in language standards, or unawareness of linguistic rules, as usually the choices like this, they're very deliberate, and they are created on purpose, which means that before making a choice, the writer needs to be aware of what's considered to be proper or standard choice and then adjust that accordingly.
+
+-Additionally, there is no evidence of mixing those codes. So for instance, Cray typing is very unlikely going to appear in an essay that is submitted to a university, and is reserved primarily for the context of the internet communication.
+
+
+-So as you can see, I'm combining parts four and five of this lecture on discourse analysis and corpus linguistics. And the reason for that is that they're not going to be narrated by me, but instead by Peter Crosswhite, who is an expert in Corpus linguistics, but he's going to be talking to you about both corpus linguistics and discourse analysis.
+
+-And if you're interested in those topics, I'd also like to direct you to the experts in the field who all work at the School of Languages and Cultures in UK. So, for discourse analysis, and particularly the framework of conversation analysis, please have a look at the research profiles and some publications by Ilana, Rod, Michael and Valeria. So all of them are specialize in the area of conversation analysis, and therefore, their publications will give you a much more in depth outlook on what has been a convention in the field, and what kinds of research questions you can ask within this research approach.
+
+-As always, let's conclude today's lecture by going through the key points that we were able to cover today. So what we have learned today is that language in the use of discourse can be researched in a variety of interrelated ways. Which means that the possibilities for potential research questions and aims are literally endless. What is interesting is that we're not analyzing a language in isolation when we look at discourse, but rather language in context, which means that we'll look at how it functions and changes depending on external factors, which means somebody's social background or cultural influences.
+ 
+
+
+
+-What is very convenient about discourse analyses is that there are ample amounts of data already accessible for analysis, and it is also possible and quite easy to create your own data sets. What you need to remember is that you always need to seek ethical clearance first, before you go ahead and collect any new audio, video or textual data. Alternatively, you need to ensure that you can use the audio of video or text resources that are already available online, and also check the appropriate procedures to anonymize the data. Finally, it is always important to supplement the audio or video recordings that you have with turning them into text by following appropriate transcription conventions that are used and accepted in your field.
