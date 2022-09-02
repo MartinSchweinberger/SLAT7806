@@ -69,3 +69,4 @@ pearsonss-chi-square-test
 effect-sizes-in-chi-square
 histograms-and-bar-plots
 presenting-and-analzing-data
+presenting-and-analyzing-data

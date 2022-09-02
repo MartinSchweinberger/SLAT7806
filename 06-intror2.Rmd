@@ -1,4 +1,4 @@
-# Presenting and Analzing Data
+# Presenting and Analyzing Data
 
 This week, we focus on data visualization. And the aim of this week is to discuss some basic principles of data visualization as well as showcasing how to visualize data using R. 
 

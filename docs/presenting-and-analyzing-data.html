@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Week 6 Presenting and Analyzing Data | SLAT7806 Research Methods</title>
+  <meta name="description" content="Week 6 Presenting and Analyzing Data | SLAT7806 Research Methods" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Week 6 Presenting and Analyzing Data | SLAT7806 Research Methods" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Week 6 Presenting and Analyzing Data | SLAT7806 Research Methods" />
+  
+  
+  
+
+<meta name="author" content="Martin Schweinberger" />
+
+
+<meta name="date" content="2022-09-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="quantitative-research.html"/>
+<link rel="next" href="reading-and-writing-research-effectively.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
+<link href="libs/tabwid-1.0.0/scrool.css" rel="stylesheet" />
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">SLAT7806 Research Methods</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-description"><i class="fa fa-check"></i>Course Description</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-staff"><i class="fa fa-check"></i>Course Staff</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#timetable"><i class="fa fa-check"></i>Timetable</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-aims"><i class="fa fa-check"></i>Course Aims</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#flipped-classroom-design"><i class="fa fa-check"></i>Flipped Classroom Design</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#learning-resources"><i class="fa fa-check"></i>Learning Resources</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#teaching-learning-activities"><i class="fa fa-check"></i>Teaching &amp; Learning Activities</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#course-plan"><i class="fa fa-check"></i>Course plan</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#assessments"><i class="fa fa-check"></i>Assessments</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction-to-research.html"><a href="introduction-to-research.html"><i class="fa fa-check"></i><b>1</b> Introduction to research</a>
+<ul>
+<li class="chapter" data-level="" data-path="introduction-to-research.html"><a href="introduction-to-research.html#the-scientific-circle"><i class="fa fa-check"></i>The Scientific Circle</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-research.html"><a href="introduction-to-research.html#activities"><i class="fa fa-check"></i>Activities</a>
+<ul>
+<li class="chapter" data-level="" data-path="introduction-to-research.html"><a href="introduction-to-research.html#activity-1-who-are-you"><i class="fa fa-check"></i>Activity 1: Who are you?</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-research.html"><a href="introduction-to-research.html#activity-2-what-is-research"><i class="fa fa-check"></i>Activity 2: What is research?</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-research.html"><a href="introduction-to-research.html#activity-3-is-this-research-scenarios-taken-from-borg-2009"><i class="fa fa-check"></i>Activity 3: Is this research? (Scenarios taken from Borg, 2009)</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-research.html"><a href="introduction-to-research.html#activity-4-types-of-research"><i class="fa fa-check"></i>Activity 4: Types of research</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-research.html"><a href="introduction-to-research.html#activity-5-conducting-research"><i class="fa fa-check"></i>Activity 5: Conducting research</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="conceptualising-a-research-project.html"><a href="conceptualising-a-research-project.html"><i class="fa fa-check"></i><b>2</b> Conceptualising a research project</a></li>
+<li class="chapter" data-level="3" data-path="designing-a-research-project.html"><a href="designing-a-research-project.html"><i class="fa fa-check"></i><b>3</b> Designing a research project</a></li>
+<li class="chapter" data-level="4" data-path="qualitative-research-methods.html"><a href="qualitative-research-methods.html"><i class="fa fa-check"></i><b>4</b> Qualitative Research Methods</a></li>
+<li class="chapter" data-level="5" data-path="quantitative-research.html"><a href="quantitative-research.html"><i class="fa fa-check"></i><b>5</b> Quantitative Research</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="quantitative-research.html"><a href="quantitative-research.html#outline"><i class="fa fa-check"></i><b>5.1</b> Outline</a></li>
+<li class="chapter" data-level="5.2" data-path="quantitative-research.html"><a href="quantitative-research.html#assumptions"><i class="fa fa-check"></i><b>5.2</b> Assumptions</a></li>
+<li class="chapter" data-level="5.3" data-path="quantitative-research.html"><a href="quantitative-research.html#falsification"><i class="fa fa-check"></i><b>5.3</b> Falsification</a></li>
+<li class="chapter" data-level="5.4" data-path="quantitative-research.html"><a href="quantitative-research.html#features"><i class="fa fa-check"></i><b>5.4</b> Features</a></li>
+<li class="chapter" data-level="5.5" data-path="quantitative-research.html"><a href="quantitative-research.html#variables"><i class="fa fa-check"></i><b>5.5</b> Variables</a></li>
+<li class="chapter" data-level="5.6" data-path="quantitative-research.html"><a href="quantitative-research.html#variable-scales"><i class="fa fa-check"></i><b>5.6</b> Variable scales</a></li>
+<li class="chapter" data-level="5.7" data-path="quantitative-research.html"><a href="quantitative-research.html#research-designs"><i class="fa fa-check"></i><b>5.7</b> Research designs</a></li>
+<li class="chapter" data-level="5.8" data-path="quantitative-research.html"><a href="quantitative-research.html#corpora"><i class="fa fa-check"></i><b>5.8</b> Corpora</a></li>
+<li class="chapter" data-level="5.9" data-path="quantitative-research.html"><a href="quantitative-research.html#descriptive-and-inferential-statistics"><i class="fa fa-check"></i><b>5.9</b> Descriptive and inferential statistics</a></li>
+<li class="chapter" data-level="5.10" data-path="quantitative-research.html"><a href="quantitative-research.html#strengths-and-weaknesses"><i class="fa fa-check"></i><b>5.10</b> Strengths and weaknesses</a></li>
+<li class="chapter" data-level="5.11" data-path="quantitative-research.html"><a href="quantitative-research.html#key-points"><i class="fa fa-check"></i><b>5.11</b> Key points</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html"><i class="fa fa-check"></i><b>6</b> Presenting and Analyzing Data</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html#basic-principles-of-data-vis"><i class="fa fa-check"></i><b>6.1</b> Basic principles of data vis</a></li>
+<li class="chapter" data-level="6.2" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html#creating-a-simple-graph"><i class="fa fa-check"></i><b>6.2</b> Creating a simple graph</a></li>
+<li class="chapter" data-level="6.3" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html#line-graphs"><i class="fa fa-check"></i><b>6.3</b> Line Graphs</a></li>
+<li class="chapter" data-level="6.4" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html#histograms-and-bar-plots"><i class="fa fa-check"></i><b>6.4</b> Histograms and Bar plots</a></li>
+<li class="chapter" data-level="6.5" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html#boxplots"><i class="fa fa-check"></i><b>6.5</b> Boxplots</a></li>
+<li class="chapter" data-level="6.6" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html#pearsonss-chi-square-test"><i class="fa fa-check"></i><b>6.6</b> (Pearsons’s) Chi-Square Test</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="presenting-and-analyzing-data.html"><a href="presenting-and-analyzing-data.html#effect-sizes-in-chi-square"><i class="fa fa-check"></i><b>6.6.1</b> Effect Sizes in Chi-Square</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="reading-and-writing-research-effectively.html"><a href="reading-and-writing-research-effectively.html"><i class="fa fa-check"></i><b>7</b> Reading and writing research effectively</a></li>
+<li class="chapter" data-level="8" data-path="ethics-and-academic-integrity.html"><a href="ethics-and-academic-integrity.html"><i class="fa fa-check"></i><b>8</b> Ethics and Academic Integrity</a></li>
+<li class="chapter" data-level="9" data-path="research-of-text-and-talk.html"><a href="research-of-text-and-talk.html"><i class="fa fa-check"></i><b>9</b> Research of Text and Talk</a></li>
+<li class="chapter" data-level="10" data-path="action-research-in-the-classroom.html"><a href="action-research-in-the-classroom.html"><i class="fa fa-check"></i><b>10</b> Action Research in the Classroom</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">SLAT7806 Research Methods</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="presenting-and-analyzing-data" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Week 6</span> Presenting and Analyzing Data<a href="presenting-and-analyzing-data.html#presenting-and-analyzing-data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This week, we focus on data visualization. And the aim of this week is to discuss some basic principles of data visualization as well as showcasing how to visualize data using R.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="presenting-and-analyzing-data.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install packages</span></span>
+<span id="cb1-2"><a href="presenting-and-analyzing-data.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages(&quot;ggplot2&quot;)</span></span>
+<span id="cb1-3"><a href="presenting-and-analyzing-data.html#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages(&quot;vip&quot;)</span></span>
+<span id="cb1-4"><a href="presenting-and-analyzing-data.html#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages(&quot;dplyr&quot;)</span></span>
+<span id="cb1-5"><a href="presenting-and-analyzing-data.html#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
+<span id="cb1-6"><a href="presenting-and-analyzing-data.html#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-7"><a href="presenting-and-analyzing-data.html#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(vip)</span>
+<span id="cb1-8"><a href="presenting-and-analyzing-data.html#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div>
+<div id="basic-principles-of-data-vis" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Basic principles of data vis<a href="presenting-and-analyzing-data.html#basic-principles-of-data-vis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>On a very general level, graphs should be used to inform the reader about properties and relationships between variables. This implies that…</p>
+<ul>
+<li>graphs, including axes, must be labeled properly to allow the reader to understand the visualization correctly and with ease.<br />
+</li>
+<li>there should not be more dimensions in the visualization than there are in the data (<strong>unless</strong> it helps the reader to better understand or more easily interpret information shown by the visualization).<br />
+</li>
+<li>all elements within a graph should be unambiguous.<br />
+</li>
+<li>variable scales should be portrayed accurately (for instance, lines - which imply continuity - should not be used for categorically scaled variables).<br />
+</li>
+<li>graphs should be as intuitive as possible and should not mislead the reader.</li>
+</ul>
+</div>
+<div id="creating-a-simple-graph" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Creating a simple graph<a href="presenting-and-analyzing-data.html#creating-a-simple-graph" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>When creating a visualization with ggplot, we first use the function <code>ggplot</code> and define the data that the visualization will use, then, we define the aesthetics which define the layout, i.e. the x- and y-axes.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="presenting-and-analyzing-data.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb2-2"><a href="presenting-and-analyzing-data.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb2-3"><a href="presenting-and-analyzing-data.html#cb2-3" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> <span class="fu">read.delim</span>(<span class="fu">here</span>(<span class="st">&quot;data&quot;</span>, <span class="st">&quot;week4data1.txt&quot;</span>), <span class="at">sep =</span> <span class="st">&quot;</span><span class="sc">\t</span><span class="st">&quot;</span>)</span>
+<span id="cb2-4"><a href="presenting-and-analyzing-data.html#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(<span class="at">x =</span> Subject, <span class="at">y =</span> TestScores))</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/prep-1.png" width="672" /></p>
+<p>In a next step, we add the geom-layer which defines the type of visualization that we want to display. In this case, we use <code>geom_point</code> as we want to show points that stand for the test scores for each subject. Note that we add the geom-layer by adding a <code>+</code> at the end of the line!</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="presenting-and-analyzing-data.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(<span class="at">x =</span> Subject, <span class="at">y =</span> TestScores)) <span class="sc">+</span></span>
+<span id="cb3-2"><a href="presenting-and-analyzing-data.html#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/plot2-1.png" width="672" /></p>
+<p>We can also add another layer, e.g. a layer which shows a smoothed loess line, and we can change the theme by specifying the theme we want to use. Here, we will use <code>theme_bw</code> which stands for the black-and-white theme (we will get into the different types of themes later).</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="presenting-and-analyzing-data.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(<span class="at">x =</span> Subject, <span class="at">y =</span> TestScores)) <span class="sc">+</span></span>
+<span id="cb4-2"><a href="presenting-and-analyzing-data.html#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb4-3"><a href="presenting-and-analyzing-data.html#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>() <span class="sc">+</span></span>
+<span id="cb4-4"><a href="presenting-and-analyzing-data.html#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/plot3-1.png" width="672" /></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="presenting-and-analyzing-data.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># save plot</span></span>
+<span id="cb5-2"><a href="presenting-and-analyzing-data.html#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="fu">here</span>(<span class="st">&quot;images&quot;</span>, <span class="st">&quot;myplot.png&quot;</span>))</span></code></pre></div>
+<p>To save a plot, we use the <code>ggsave</code> function after the plot as used above.</p>
+<p>And we can store plots in objects.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="presenting-and-analyzing-data.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(<span class="at">x =</span> Subject, <span class="at">y =</span> TestScores)) <span class="sc">+</span></span>
+<span id="cb6-2"><a href="presenting-and-analyzing-data.html#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb6-3"><a href="presenting-and-analyzing-data.html#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="ot">-&gt;</span> p</span></code></pre></div>
+<p>To change the range of the axes, we can specify their limits in the <code>coord_cartesian</code> layer.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="presenting-and-analyzing-data.html#cb7-1" aria-hidden="true" tabindex="-1"></a>p <span class="sc">+</span> <span class="fu">coord_cartesian</span>(<span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">55</span>), <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">50</span>))</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/axes2-1.png" width="672" /></p>
+<p>We can also integrate plots into data processing pipelines as shown below. When you integrate visualizations into pipelines, you should not specify the data as it is clear from the pipe which data the plot is using.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="presenting-and-analyzing-data.html#cb8-1" aria-hidden="true" tabindex="-1"></a>dat <span class="sc">%&gt;%</span></span>
+<span id="cb8-2"><a href="presenting-and-analyzing-data.html#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Class) <span class="sc">%&gt;%</span></span>
+<span id="cb8-3"><a href="presenting-and-analyzing-data.html#cb8-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarise</span>(<span class="at">Score =</span> <span class="fu">mean</span>(TestScores)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-4"><a href="presenting-and-analyzing-data.html#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Class, <span class="at">y =</span> Score, </span>
+<span id="cb8-5"><a href="presenting-and-analyzing-data.html#cb8-5" aria-hidden="true" tabindex="-1"></a>               <span class="at">fill =</span> Class)) <span class="sc">+</span></span>
+<span id="cb8-6"><a href="presenting-and-analyzing-data.html#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">&quot;identity&quot;</span>)</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/plot5-1.png" width="672" /></p>
+</div>
+<div id="line-graphs" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> Line Graphs<a href="presenting-and-analyzing-data.html#line-graphs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Line graphs are used when we have numeric values that are linked in one way or another, e.g., because they display a time series (in our case we should actually not use a line graph but we do it to exemplify how it is done).</p>
+<blockquote>
+<p>It is important that there is only one value per x-axis level for each line!</p>
+</blockquote>
+<p>In addition, we use the <code>facet_wrap</code> function with the <code>nrow</code> argument to show the plots in 3 rows (instead of next to each other).</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="presenting-and-analyzing-data.html#cb9-1" aria-hidden="true" tabindex="-1"></a>dat <span class="sc">%&gt;%</span></span>
+<span id="cb9-2"><a href="presenting-and-analyzing-data.html#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Subject, <span class="at">y =</span> TestScores, <span class="at">color =</span> Class)) <span class="sc">+</span></span>
+<span id="cb9-3"><a href="presenting-and-analyzing-data.html#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># add geom layer with lines</span></span>
+<span id="cb9-4"><a href="presenting-and-analyzing-data.html#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb9-5"><a href="presenting-and-analyzing-data.html#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>Class, <span class="at">nrow =</span> <span class="dv">3</span>)</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/line1-1.png" width="672" /></p>
+</div>
+<div id="histograms-and-bar-plots" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> Histograms and Bar plots<a href="presenting-and-analyzing-data.html#histograms-and-bar-plots" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Histograms summarize numeric variables by showing their distribution across bins.</p>
+<p>Using <code>ggplot</code>, we specify the variable we want to summarize in the aesthetics and use the <code>geom_histogram</code> function to generate a histogram. And we can simply add information about a second variable by specifying this variable as the basis for the coloring of the bars (which we do by specify the <code>fill</code> argument).</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="presenting-and-analyzing-data.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(TestScores, <span class="at">fill =</span> Class)) <span class="sc">+</span></span>
+<span id="cb10-2"><a href="presenting-and-analyzing-data.html#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/hist_03-1.png" width="672" /></p>
+<p>The creation of barplots in ggplot works just like other types of visualizations in this framework. We first define the data and the aesthetics and then use the <code>geom_bar</code> to create a barplot.</p>
+<p>In the case of barplots, it is important that we only have 1 value per class so we first summarize the data before plotting it.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="presenting-and-analyzing-data.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># bar plot</span></span>
+<span id="cb11-2"><a href="presenting-and-analyzing-data.html#cb11-2" aria-hidden="true" tabindex="-1"></a>dat <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="presenting-and-analyzing-data.html#cb11-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">group_by</span>(Class) <span class="sc">%&gt;%</span></span>
+<span id="cb11-4"><a href="presenting-and-analyzing-data.html#cb11-4" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarise</span>(<span class="at">Score =</span> <span class="fu">mean</span>(TestScores)) <span class="sc">%&gt;%</span></span>
+<span id="cb11-5"><a href="presenting-and-analyzing-data.html#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Class, Score), <span class="at">y =</span> Score, <span class="at">fill =</span> Class)) <span class="sc">+</span></span>
+<span id="cb11-6"><a href="presenting-and-analyzing-data.html#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">&quot;identity&quot;</span>) <span class="sc">+</span>          </span>
+<span id="cb11-7"><a href="presenting-and-analyzing-data.html#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span>                        </span>
+<span id="cb11-8"><a href="presenting-and-analyzing-data.html#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># add and define text</span></span>
+<span id="cb11-9"><a href="presenting-and-analyzing-data.html#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">y =</span> Score<span class="dv">-2</span>, <span class="at">label =</span> <span class="fu">round</span>(Score, <span class="dv">1</span>)), <span class="at">color =</span> <span class="st">&quot;white&quot;</span>, <span class="at">size=</span><span class="dv">5</span>) <span class="sc">+</span> </span>
+<span id="cb11-10"><a href="presenting-and-analyzing-data.html#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="co"># add colors</span></span>
+<span id="cb11-11"><a href="presenting-and-analyzing-data.html#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">&quot;gray&quot;</span>, <span class="st">&quot;orange&quot;</span>, <span class="st">&quot;lightblue&quot;</span>)) <span class="sc">+</span></span>
+<span id="cb11-12"><a href="presenting-and-analyzing-data.html#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># suppress legend</span></span>
+<span id="cb11-13"><a href="presenting-and-analyzing-data.html#cb11-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position=</span><span class="st">&quot;none&quot;</span>)</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/bar4-1.png" width="672" /></p>
+<p>Compared with the pie chart, it is much easier to grasp the relative size and order of the percentage values which shows that pie charts are unfit to show relationships between elements in a graph and, as a general rule of thumb, should be avoided.</p>
+</div>
+<div id="boxplots" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> Boxplots<a href="presenting-and-analyzing-data.html#boxplots" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>So far, we have plotted values but we have not plotted the underlying distributions. For instance, we have plotted mean values but not the variance within the distribution. One handy way to combine plotting general trends and their underlying distributions are boxplots.</p>
+<p>Boxplots, or Box-and-Whisker Plots, are exploratory graphics first created by John W. Tukey and they show the relationships between categorical and numeric variables. They are very useful because they not only provide measures of central tendency (the median which is the line in the middle of the box) but they also offer information about the distribution of the data. To elaborate, fifty percent of data points fall within the box while seventy-five percent of data points fall within the whiskers (the lines which look like extended error bars): the box thus encompasses the interquartile range between the first and third quartile. The whiskers show the minimum and maximum values in the data and only outliers (data points that lie 1.5 times the interquartile range or more above the third quartile or 1.5 times the interquartile range or more below the first quartile. If the whiskers differ in length, then this means that the data is asymmetrically distributed.</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="presenting-and-analyzing-data.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create boxplot</span></span>
+<span id="cb12-2"><a href="presenting-and-analyzing-data.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(Class, TestScores, <span class="at">color =</span> Class)) <span class="sc">+</span>                 </span>
+<span id="cb12-3"><a href="presenting-and-analyzing-data.html#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill=</span><span class="fu">c</span>(<span class="st">&quot;orange&quot;</span>, <span class="st">&quot;gray&quot;</span>, <span class="st">&quot;lightblue&quot;</span>)) </span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/box1-1.png" width="672" /></p>
+</div>
+<div id="pearsonss-chi-square-test" class="section level2 hasAnchor" number="6.6">
+<h2><span class="header-section-number">6.6</span> (Pearsons’s) Chi-Square Test<a href="presenting-and-analyzing-data.html#pearsonss-chi-square-test" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>One of the most frequently used statistical test in linguistics is the <span class="math inline">\(\chi\)</span><sup>2</sup> test (or Pearsons’s chi-square test, chi-squared test, or chi-square test). We will use a simple, practical example to explore how this test works. In this example, we will test whether speakers of American English (AmE) and speakers of British English (BrE) differ in their use of the near-synonyms <em>sort of</em> and <em>kind of</em> as in “<em>He’s sort of stupid</em>” and “<em>He’s kind of stupid</em>”. As a first step, we formulate the hypothesis that we want to test (H<sub>1</sub>) and its null hypothesis (H<sub>0</sub>). The alternative- or test hypothesis reads:</p>
+<p>H<sub>1</sub>: Speakers of AmE and BrE differ with respect to their preference for <em>sort of</em> and <em>kind of</em>.</p>
+<p>while the Null Hypothesis (H<sub>0</sub>) states</p>
+<p>H<sub>0</sub>: Speakers of AmE and BrE do not differ with respect to their preference for <em>sort of</em> and <em>kind of</em>.</p>
+<p>The H<sub>0</sub> claims the non-existence of something (which is the more conservative position) and in our example the non-existence of a correlation between variety of English and the use of <em>sort of</em> and <em>kind of</em>. The question now arises what has to be the case in order to reject the H<sub>0</sub> in favor of the H<sub>1</sub>.</p>
+<p>To answer this question, we require information about the probability of error, i.e. the probability that the H<sub>0</sub> does indeed hold for the entire population. Before performing the chi-square test, we follow the convention that the required significance level is 5 percent. In other words, we will reject the H<sub>0</sub> if the likelihood for the H<span class="math inline">\(_{0}\)</span> being true is less than 5 percent given the distribution of the data. In that case, i.e. in case that the likelihood for the H<sub>0</sub> being true is less than 5 percent, we consider the result of the chi-square test as statistically significant. This means that the observed distribution makes it very unlikely that there is no correlation between the variety of English and the use of <em>sort of</em> and <em>kind of</em>.</p>
+<p>Let us now assume that we have performed a search for <em>sort of</em> and <em>kind of</em> in two corpora representing American and British English and that we have obtained the following frequencies:</p>
+<template id="de970393-2a69-4b43-8d72-63fceda8fe21"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+.katex-display {
+    margin: 0 0 !important;
+}
+</style><div class="tabwid"><style>.cl-6071d9ac{table-layout:auto;width:75%;}.cl-60546dfe{font-family:'Arial';font-size:12pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-60546e12{font-family:'Arial';font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-60549c52{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-60549c5c{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-60550d86{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550d9a{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550da4{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550da5{background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550da6{background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550dae{background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550daf{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550db8{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60550db9{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-6071d9ac'>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-60550db8"><p class="cl-60549c52"><span class="cl-60546dfe">Hedge</span></p></td><td class="cl-60550db9"><p class="cl-60549c5c"><span class="cl-60546dfe">BrE</span></p></td><td class="cl-60550daf"><p class="cl-60549c5c"><span class="cl-60546dfe">AmE</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-60550da4"><p class="cl-60549c52"><span class="cl-60546e12">kindof</span></p></td><td class="cl-60550d9a"><p class="cl-60549c5c"><span class="cl-60546e12">181</span></p></td><td class="cl-60550d86"><p class="cl-60549c5c"><span class="cl-60546e12">655</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-60550dae"><p class="cl-60549c52"><span class="cl-60546e12">sortof</span></p></td><td class="cl-60550da5"><p class="cl-60549c5c"><span class="cl-60546e12">177</span></p></td><td class="cl-60550da6"><p class="cl-60549c5c"><span class="cl-60546e12">67</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="c44e837d-3c31-41b8-a59b-7d3272972e8b"></div>
+<script>
+var dest = document.getElementById("c44e837d-3c31-41b8-a59b-7d3272972e8b");
+var template = document.getElementById("de970393-2a69-4b43-8d72-63fceda8fe21");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+<p>In a first step, we now have to calculate the row and column sums of our table.</p>
+<template id="574d0e37-b304-4973-b2dd-4ad1ee7ba056"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+.katex-display {
+    margin: 0 0 !important;
+}
+</style><div class="tabwid"><style>.cl-60911e3e{table-layout:auto;width:75%;}.cl-608652ce{font-family:'Arial';font-size:12pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-608652d8{font-family:'Arial';font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-60867308{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-60867312{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-6086ae68{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae72{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae73{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae7c{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae7d{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae7e{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae86{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae87{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae88{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae89{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae90{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6086ae91{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-60911e3e'>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-6086ae90"><p class="cl-60867308"><span class="cl-608652ce">Hedge</span></p></td><td class="cl-6086ae89"><p class="cl-60867312"><span class="cl-608652ce">BrE</span></p></td><td class="cl-6086ae89"><p class="cl-60867312"><span class="cl-608652ce">AmE</span></p></td><td class="cl-6086ae91"><p class="cl-60867312"><span class="cl-608652ce">Total</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-6086ae72"><p class="cl-60867308"><span class="cl-608652d8">kindof</span></p></td><td class="cl-6086ae68"><p class="cl-60867312"><span class="cl-608652d8">181</span></p></td><td class="cl-6086ae68"><p class="cl-60867312"><span class="cl-608652d8">655</span></p></td><td class="cl-6086ae73"><p class="cl-60867312"><span class="cl-608652d8">836</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6086ae7d"><p class="cl-60867308"><span class="cl-608652d8">sortof</span></p></td><td class="cl-6086ae7c"><p class="cl-60867312"><span class="cl-608652d8">177</span></p></td><td class="cl-6086ae7c"><p class="cl-60867312"><span class="cl-608652d8">67</span></p></td><td class="cl-6086ae7e"><p class="cl-60867312"><span class="cl-608652d8">244</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-6086ae87"><p class="cl-60867308"><span class="cl-608652d8">Total</span></p></td><td class="cl-6086ae86"><p class="cl-60867312"><span class="cl-608652d8">358</span></p></td><td class="cl-6086ae86"><p class="cl-60867312"><span class="cl-608652d8">722</span></p></td><td class="cl-6086ae88"><p class="cl-60867312"><span class="cl-608652d8">1,080</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="88e273fd-8512-4b17-8d59-582ef0890b14"></div>
+<script>
+var dest = document.getElementById("88e273fd-8512-4b17-8d59-582ef0890b14");
+var template = document.getElementById("574d0e37-b304-4973-b2dd-4ad1ee7ba056");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+<p>Next, we calculate, the values that would have expected if there was no correlation between variety of English and the use of <em>sort of</em> and <em>kind of</em>. In order to get these <em>expected</em> frequencies, we apply the equation below to all cells in our table.</p>
+<p><span class="math display">\[\begin{equation}
+\frac{Column total*Row total}{Overall total}
+\end{equation}\]</span></p>
+<p>In our example this means that for the cell with <code>[+]BrE</code> <code>[+]kindof</code> we get:</p>
+<p><span class="math display">\[\begin{equation}
+\frac{836*358}{1080} = \frac{299288}{1080} = 277.1185
+\end{equation}\]</span></p>
+<p>For the entire table this means we get the following expected values:</p>
+<template id="9f27941a-01e1-4924-97a1-6c7ab1c5624f"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+.katex-display {
+    margin: 0 0 !important;
+}
+</style><div class="tabwid"><style>.cl-60b00542{table-layout:auto;width:75%;}.cl-60a69da4{font-family:'Arial';font-size:12pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-60a69dae{font-family:'Arial';font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-60a6b500{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-60a6b50a{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-60a6ea2a{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea34{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea35{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea3e{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea3f{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea40{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea48{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea49{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea4a{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea52{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea53{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60a6ea54{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-60b00542'>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-60a6ea53"><p class="cl-60a6b500"><span class="cl-60a69da4">Hedge</span></p></td><td class="cl-60a6ea52"><p class="cl-60a6b50a"><span class="cl-60a69da4">BrE</span></p></td><td class="cl-60a6ea52"><p class="cl-60a6b50a"><span class="cl-60a69da4">AmE</span></p></td><td class="cl-60a6ea54"><p class="cl-60a6b50a"><span class="cl-60a69da4">Total</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-60a6ea34"><p class="cl-60a6b500"><span class="cl-60a69dae">kindof</span></p></td><td class="cl-60a6ea2a"><p class="cl-60a6b50a"><span class="cl-60a69dae">277.11850</span></p></td><td class="cl-60a6ea2a"><p class="cl-60a6b50a"><span class="cl-60a69dae">558.8815</span></p></td><td class="cl-60a6ea35"><p class="cl-60a6b50a"><span class="cl-60a69dae">836</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-60a6ea3f"><p class="cl-60a6b500"><span class="cl-60a69dae">sortof</span></p></td><td class="cl-60a6ea3e"><p class="cl-60a6b50a"><span class="cl-60a69dae">80.88148</span></p></td><td class="cl-60a6ea3e"><p class="cl-60a6b50a"><span class="cl-60a69dae">163.1185</span></p></td><td class="cl-60a6ea40"><p class="cl-60a6b50a"><span class="cl-60a69dae">244</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-60a6ea49"><p class="cl-60a6b500"><span class="cl-60a69dae">Total</span></p></td><td class="cl-60a6ea48"><p class="cl-60a6b50a"><span class="cl-60a69dae">358.00000</span></p></td><td class="cl-60a6ea48"><p class="cl-60a6b50a"><span class="cl-60a69dae">722.0000</span></p></td><td class="cl-60a6ea4a"><p class="cl-60a6b50a"><span class="cl-60a69dae">1,080</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="c237a364-90ae-4764-bb79-e9ea7cd9d14e"></div>
+<script>
+var dest = document.getElementById("c237a364-90ae-4764-bb79-e9ea7cd9d14e");
+var template = document.getElementById("9f27941a-01e1-4924-97a1-6c7ab1c5624f");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+<p>In a next step, we calculate the contribution of each cell to the overall <span class="math inline">\(\chi\)</span><sup>2</sup> value (<span class="math inline">\(\chi\)</span><sup>2</sup> contribution). To get <span class="math inline">\(\chi\)</span><sup>2</sup> contribution for each cell, we apply the equation below to each cell.</p>
+<p><span class="math display">\[\begin{equation}
+\frac{(observed – expected)^{2}}{expected}
+\end{equation}\]</span></p>
+<p>In our example this means that for the cell with <code>[+]BrE</code> <code>[+]kindof</code> we get:</p>
+<p><span class="math display">\[\begin{equation}
+\frac{(181 – 277.1185)^{2}}{277.1185} = \frac{-96.1185^{2}}{277.1185} = \frac{9238.766}{277.1185} = 33.33868
+\end{equation}\]</span></p>
+<p>For the entire table this means we get the following <span class="math inline">\(\chi^{2}\)</span> values:</p>
+<template id="f2b7dcd0-c46a-423c-9ed5-2ca00ce8cc83"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+.katex-display {
+    margin: 0 0 !important;
+}
+</style><div class="tabwid"><style>.cl-60cb6062{table-layout:auto;width:75%;}.cl-60c18c9a{font-family:'Arial';font-size:12pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-60c18cae{font-family:'Arial';font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-60c1a7b6{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-60c1a7c0{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-60c1d902{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d90c{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d90d{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d90e{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d916{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d917{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d918{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d919{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d920{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d921{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d922{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-60c1d92a{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-60cb6062'>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-60c1d922"><p class="cl-60c1a7b6"><span class="cl-60c18c9a">Hedge</span></p></td><td class="cl-60c1d921"><p class="cl-60c1a7c0"><span class="cl-60c18c9a">BrE</span></p></td><td class="cl-60c1d921"><p class="cl-60c1a7c0"><span class="cl-60c18c9a">AmE</span></p></td><td class="cl-60c1d92a"><p class="cl-60c1a7c0"><span class="cl-60c18c9a">Total</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-60c1d90c"><p class="cl-60c1a7b6"><span class="cl-60c18cae">kindof</span></p></td><td class="cl-60c1d902"><p class="cl-60c1a7c0"><span class="cl-60c18cae">33.33869</span></p></td><td class="cl-60c1d902"><p class="cl-60c1a7c0"><span class="cl-60c18cae">16.53082</span></p></td><td class="cl-60c1d90d"><p class="cl-60c1a7c0"><span class="cl-60c18cae">49.86951</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-60c1d916"><p class="cl-60c1a7b6"><span class="cl-60c18cae">sortof</span></p></td><td class="cl-60c1d90e"><p class="cl-60c1a7c0"><span class="cl-60c18cae">114.22602</span></p></td><td class="cl-60c1d90e"><p class="cl-60c1a7c0"><span class="cl-60c18cae">56.63839</span></p></td><td class="cl-60c1d917"><p class="cl-60c1a7c0"><span class="cl-60c18cae">170.86440</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-60c1d919"><p class="cl-60c1a7b6"><span class="cl-60c18cae">Total</span></p></td><td class="cl-60c1d918"><p class="cl-60c1a7c0"><span class="cl-60c18cae">147.56470</span></p></td><td class="cl-60c1d918"><p class="cl-60c1a7c0"><span class="cl-60c18cae">73.16921</span></p></td><td class="cl-60c1d920"><p class="cl-60c1a7c0"><span class="cl-60c18cae">220.73390</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="15cd8da1-8d87-4b41-85f0-51a24bf251e6"></div>
+<script>
+var dest = document.getElementById("15cd8da1-8d87-4b41-85f0-51a24bf251e6");
+var template = document.getElementById("f2b7dcd0-c46a-423c-9ed5-2ca00ce8cc83");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+<p>The sum of <span class="math inline">\(\chi\)</span><sup>2</sup> contributions in our example is 220.7339. To see if this value is statistically significant, we need to calculate the degrees of freedom because the <span class="math inline">\(\chi\)</span> distribution differs across degrees of freedom. Degrees of freedom are calculated according to the equation below.</p>
+<p><span class="math display">\[\begin{equation}
+DF = (rows -1) * (columns – 1) = (2-1) * (2-1) = 1 * 1 = 1
+\end{equation}\]</span></p>
+<p>In a last step, we check whether the <span class="math inline">\(\chi\)</span><sup>2</sup> value that we have calculated is higher than a critical value (in which case the correlation in our table is significant). Degrees of freedom are relevant here because the critical values are dependent upon the degrees of freedom: the more degrees of freedom, the higher the critical value, i.e. the harder it is to breach the level of significance.</p>
+<p><strong>But why do the degrees of freedom matter?</strong></p>
+<p>The simple answer is that the <span class="math inline">\(\chi\)</span>-distribution differs based on the degrees of freedom which then affects the probability of a <span class="math inline">\(\chi\)</span>-value. Have a look at the graph below to see how the degrees of freedom affect the shape of the <span class="math inline">\(\chi\)</span>-distribution.</p>
+<p><img src="bookdownproj_files/figure-html/chidist-1.png" width="672" /></p>
+<p>Since there is only 1 degree of freedom in our case, we need to check the critical <span class="math inline">\(\chi\)</span>-value foe 1 degree of freedom and a significance level of <span class="math inline">\(\alpha\)</span> = 5 percent.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="presenting-and-analyzing-data.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qchisq</span>(<span class="at">p=</span>.<span class="dv">05</span>, <span class="at">df=</span><span class="dv">1</span>, <span class="at">lower.tail=</span><span class="cn">FALSE</span>)</span></code></pre></div>
+<pre><code>## [1] 3.841459</code></pre>
+<p>What does this critical value mean?</p>
+<p><img src="bookdownproj_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>The critical values shows that if we get a value higher than the critical value, we have to reject our H<sub>0</sub> and can consider our result to be statistically significant because the likelihood of obtaining our or a more extreme result is lower than 5%.</p>
+<p>You can also check the critical values in the table below. as we are dealing with 1 degree of freedom, only the first column in the table of critical values below is relevant for us.</p>
+<template id="5a59701f-b095-4430-9d03-7ef183429889"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+.katex-display {
+    margin: 0 0 !important;
+}
+</style><div class="tabwid"><style>.cl-615f6438{table-layout:auto;width:75%;}.cl-61552db0{font-family:'Arial';font-size:12pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-61552dba{font-family:'Arial';font-size:12pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-615542fa{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-61557112{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6155711c{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6155711d{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-61557126{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-61557127{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-61557128{background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-61557130{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-61557131{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-61557132{background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6155713a{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6155713b{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-6155713c{background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-615f6438'>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-6155713a"><p class="cl-615542fa"><span class="cl-61552db0">DF</span></p></td><td class="cl-6155713c"><p class="cl-615542fa"><span class="cl-61552db0">p&lt;.05</span></p></td><td class="cl-6155713c"><p class="cl-615542fa"><span class="cl-61552db0">p&lt;.01</span></p></td><td class="cl-6155713b"><p class="cl-615542fa"><span class="cl-61552db0">p&lt;.001</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-61557112"><p class="cl-615542fa"><span class="cl-61552dba">1</span></p></td><td class="cl-6155711d"><p class="cl-615542fa"><span class="cl-61552dba">3.84</span></p></td><td class="cl-6155711d"><p class="cl-615542fa"><span class="cl-61552dba">6.64</span></p></td><td class="cl-6155711c"><p class="cl-615542fa"><span class="cl-61552dba">10.83</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-61557127"><p class="cl-615542fa"><span class="cl-61552dba">2</span></p></td><td class="cl-61557128"><p class="cl-615542fa"><span class="cl-61552dba">5.99</span></p></td><td class="cl-61557128"><p class="cl-615542fa"><span class="cl-61552dba">9.21</span></p></td><td class="cl-61557126"><p class="cl-615542fa"><span class="cl-61552dba">13.82</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-61557112"><p class="cl-615542fa"><span class="cl-61552dba">3</span></p></td><td class="cl-6155711d"><p class="cl-615542fa"><span class="cl-61552dba">7.82</span></p></td><td class="cl-6155711d"><p class="cl-615542fa"><span class="cl-61552dba">11.35</span></p></td><td class="cl-6155711c"><p class="cl-615542fa"><span class="cl-61552dba">16.27</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-61557127"><p class="cl-615542fa"><span class="cl-61552dba">4</span></p></td><td class="cl-61557128"><p class="cl-615542fa"><span class="cl-61552dba">9.49</span></p></td><td class="cl-61557128"><p class="cl-615542fa"><span class="cl-61552dba">13.28</span></p></td><td class="cl-61557126"><p class="cl-615542fa"><span class="cl-61552dba">18.47</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-61557130"><p class="cl-615542fa"><span class="cl-61552dba">5</span></p></td><td class="cl-61557132"><p class="cl-615542fa"><span class="cl-61552dba">11.07</span></p></td><td class="cl-61557132"><p class="cl-615542fa"><span class="cl-61552dba">15.09</span></p></td><td class="cl-61557131"><p class="cl-615542fa"><span class="cl-61552dba">20.52</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="079fe0cd-5d07-4bdf-8850-961e4d164031"></div>
+<script>
+var dest = document.getElementById("079fe0cd-5d07-4bdf-8850-961e4d164031");
+var template = document.getElementById("5a59701f-b095-4430-9d03-7ef183429889");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+<p>Since the <span class="math inline">\(\chi\)</span><sup>2</sup> value that we have calculated is much higher than the critical value provided for p&lt;.05, we can reject the H<sub>0</sub> and may now claim that speakers of AmE and BrE differ with respect to their preference for <em>sort of</em> and <em>kind of</em>.</p>
+<p>Before we summarize the results, we will calculate the effect size which is a measure for how strong the correlations are.</p>
+<div id="effect-sizes-in-chi-square" class="section level3 hasAnchor" number="6.6.1">
+<h3><span class="header-section-number">6.6.1</span> Effect Sizes in Chi-Square<a href="presenting-and-analyzing-data.html#effect-sizes-in-chi-square" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Effect sizes are important because they correlations may be highly significant but the effect between variables can be extremely weak. The effect size is therefore a measure how strong the correlation or the explanatory and predictive power between variables is.</p>
+<p>The effect size measure for <span class="math inline">\(\chi\)</span><sup>2</sup> tests can be either the <span class="math inline">\(\phi\)</span>-coefficient (phi-coefficient) or Cramer’s <span class="math inline">\(\phi\)</span> (Cramer’s phi). The <span class="math inline">\(\phi\)</span>-coefficient is used when dealing with 2x2 tables while Cramer’s <span class="math inline">\(\phi\)</span> is used when dealing with tables with more than 4 cells. The <span class="math inline">\(\phi\)</span> coefficient can be calculated by using the equation below (N = overall sample size).</p>
+<p><span class="math display">\[\begin{equation}
+\phi = \sqrt{\frac{\chi^{2}}{N}}
+\end{equation}\]</span></p>
+<p>In our case, this means:</p>
+<p><span class="math display">\[\begin{equation}
+\phi = \sqrt{\frac{220.7339}{1080}} = \sqrt{0.2043832} = 0.4520876
+\end{equation}\]</span></p>
+<p>The <span class="math inline">\(\phi\)</span> coefficient varies between 0 (no effect) and 1 (perfect correlation). For the division into weak, moderate and strong effects one can follow the division for <span class="math inline">\(\omega\)</span> (small omega), so that with values beginning with .1 represent weak, values between 0.3 and .5 represent moderate and values above .5 represent strong effects <span class="citation">(<a href="#ref-buehner2009statistik" role="doc-biblioref">Bühner and Ziegler 2009, 266</a>)</span>. So, in this example we are dealing with a medium-sized effect/correlation.</p>
+<p><a href="#introduction_to_data_visualization">Back to top</a></p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-buehner2009statistik" class="csl-entry">
+Bühner, Markus, and Matthias Ziegler. 2009. <em>Statistik f<span>ü</span>r Psychologen Und Sozialwissenschaftler</em>. M<span>ü</span>nchen: Pearson Studium.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="quantitative-research.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="reading-and-writing-research-effectively.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/MartinSchweinberger/SLAT7806/edit/master/06-intror2.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/MartinSchweinberger/SLAT7806/blob/master/06-intror2.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
