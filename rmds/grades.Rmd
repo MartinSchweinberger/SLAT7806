@@ -1,0 +1,60 @@
+---
+title: "Untitled"
+author: "Martin Schweinberger and Michael Haugh"
+date: '`r Sys.Date()`'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+results <- c(3.597222222, 6.597222222, 4.597222222, 10.59722222, 5.597222222, -5.402777778, -8.402777778, 0.597222222, -10.40277778, 1.597222222, -1.402777778, -2.402777778, -0.402777778, 1.597222222, 0.597222222, -1.402777778, 2.597222222, -9.402777778, -7.402777778, -6.402777778, 6.597222222, -2.402777778, 4.597222222, 5.597222222, 9.597222222, -0.402777778, 6.597222222, -0.402777778, 7.597222222, -4.402777778, -5.402777778, -4.402777778, 3.597222222, 0.597222222, 4.597222222, -2.402777778, 3.597222222, -6.402777778, -7.402777778, -9.402777778, 0.597222222, 6.597222222, -4.402777778, -5.402777778, 1.597222222, 13.59722222, -9.402777778, -7.402777778, 0.597222222, 8.597222222, 4.597222222, -8.402777778, -1.402777778, -3.402777778, -3.402777778, 1.597222222, -4.402777778, -7.402777778, -11.40277778, -3.402777778, -4.402777778, 7.597222222, 6.597222222, -6.402777778, 9.597222222, 6.597222222, -1.402777778, 11.59722222, 11.59722222, -5.402777778, 1.597222222, -0.402777778)
+percent <- c(75, 82.5, 77.5, 92.5, 80, 52.5, 45, 67.5, 40, 70, 62.5, 60, 65, 70, 67.5, 62.5, 72.5, 42.5, 47.5, 50, 82.5, 60, 77.5, 80, 90, 65, 82.5, 65, 85, 55, 52.5, 55, 75, 67.5, 77.5, 60, 75, 50, 47.5, 42.5, 67.5, 82.5, 55, 52.5, 70, 100, 42.5, 47.5, 67.5, 87.5, 77.5, 45, 62.5, 57.5, 57.5, 70, 55, 47.5, 37.5, 57.5, 55, 85, 82.5, 50, 90, 82.5, 62.5, 95, 95, 52.5, 70, 65)
+hist(results)
+
+hist(percent)
+```
+
+
+```{r cars}
+percent <- c(75, 82.5, 77.5, 92.5, 80, 52.5, 45, 67.5, 40, 70, 62.5, 60, 65, 70, 67.5, 62.5, 72.5, 42.5, 47.5, 50, 82.5, 60, 77.5, 80, 90, 65, 82.5, 65, 85, 55, 52.5, 55, 75, 67.5, 77.5, 60, 75, 50, 47.5, 42.5, 67.5, 82.5, 55, 52.5, 70, 100, 42.5, 47.5, 67.5, 87.5, 77.5, 45, 62.5, 57.5, 57.5, 70, 55, 47.5, 37.5, 57.5, 55, 85, 82.5, 50, 90, 82.5, 62.5, 95, 95, 52.5, 70, 65)
+hist(percent)
+```
+
+```{r}
+library(dplyr)
+library(tibble)
+grade <- as.tibble(percent) %>%
+  dplyr::mutate(grade = dplyr::case_when(percent >= 85 ~ 7,
+                                                percent >= 75 ~ 6,
+                                                percent >= 65 ~ 5,
+                                                percent >= 50 ~ 4,
+                                                percent >= 45 ~ 3,
+                                                percent >= 25 ~ 2,
+                                                TRUE ~ 1))
+table(grade$grade)
+
+hist(grade$grade)
+
+24/nrow(grade)
+```
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -61,6 +61,18 @@ Email: h.tran6\@uq.edu.au
 
 Office: St Lucia campus, Gordon Greenwood Building
 
+<br>
+
+```{r ceara, echo=FALSE, out.width= "20%", out.extra='style="float:right; padding:15px"'}
+knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/master/images/Ceara.jpg?raw=true")
+```
+
+**Lecturer: Ceara McManus**
+
+Email: ceara\@thechalkcrew.com
+
+Office: St Lucia campus, Gordon Greenwood Building
+
 ## Timetable {-}
 
 Timetables are available on the UQ Public Timetable.
@@ -95,7 +107,7 @@ After successfully completing this course you should be able to:
 
 This is a flipped course with both online and face-to-face components.
 
-* You are expected to have watched the lectures/listened to the podcasts as well as have read through the slides before you attend the tutorials. The slides and lectures are all available online on Blackboard both as videos and as podcasts. 
+* You are expected to have watched the lectures/listened to the lecture recordings as well as have read through the slides before you attend the tutorials. The slides and lectures are all available online on Blackboard both as videos and as podcasts. 
 
 * The tutorials take place as face-to-face sessions, either online and on-site and they are recorded. Any materials you need for the tutorials, e.g. tutorial slides, activity handouts with exercises, videos, or any other materials are available online on Blackboard.
 
@@ -219,11 +231,15 @@ There may be minor changes to the learning activities due to public holidays. St
 ```{r ass, echo = F, eval = T, message=FALSE, warning=FALSE}
 library(dplyr)
 library(flextable)
-Assessment <- c("Weekly Online Study Tasks", "Annotated Bibliography", "Research Proposal")
-DueDate <- c("Weeks 3 to 12 (Aug. 8 - Oct. 17): must be submitted before Monday 9 am of each week", 
-             "End of week 9 (Sep. 23):  must be submitted before Friday 4 pm",
-             "Two weeks after week 13 (Nov. 11): must be submitted before Friday 4 pm")
-Weighting <- c("30%", "30%", "40%")
+Assessment <- c("Weekly Online Study Tasks",
+                "Academic Integrity Online Module",
+                "Annotated Bibliography", 
+                "Research Proposal")
+DueDate <- c("Weeks 3 to 12 (Mar. 6 - May 15): must be submitted before Monday 13:00 of each week", 
+             "Must be submitted before the end of week 13 (May 26, 16:00)",
+             "Must be submitted on Tuesday of week 10 (May 2, 16:00)",
+             "Must be submitted on Wednesday 2 weeks after week 13 (June 7, 16:00)")
+Weighting <- c("30%", "Pass/Fail", "30%", "40%")
 data.frame(Assessment, DueDate, Weighting) %>%
   as.data.frame() %>%
   flextable::flextable() %>%
@@ -236,6 +252,17 @@ data.frame(Assessment, DueDate, Weighting) %>%
   flextable::border_outer()
 ```
 
+
+**Use of AI in Assessments**
+
+For the Study Online Tasks and the Academic Integrity Online Module:
+
+> These assessment tasks evaluate students' abilities, skills and knowledge without the aid of Artificial Intelligence (Al). Students are advised that the use of Al technologies to develop responses is strictly prohibited and may constitute student misconduct under the Student Code of Conduct. 
+
+For The Annotated Bibliography and the Research Proposal:
+
+> Artificial Intelligence (Al) provides emerging tools that may support students in completing this assessment task. Students may appropriately use AI in completing this assessment task. Students must clearly reference any use of Al in each instance. 
+A failure to reference Al use may constitute student misconduct under the Student Code of Conduct. 
 
 
 **Course Grading**
