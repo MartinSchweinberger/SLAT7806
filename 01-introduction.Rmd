@@ -336,8 +336,8 @@ teachers’ association.
 
 What types of research correspond to what number?
 
-```{r types, echo=FALSE, out.width= "80%", out.extra='style="float:left; padding:15px"'}
-knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/typesofresearch.png")
+```{r types, echo=FALSE, out.width= "100%", out.extra='style="float:left; padding:15px"'}
+knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/master/images/typesofresearch.png?raw=true")
 ```
 
 
@@ -345,8 +345,8 @@ knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/t
 
 Put the following possible steps of conducting a research project in an order that you think is appropriate.
 
-```{r steps, echo=FALSE, out.width= "80%", out.extra='style="float:left; padding:15px"'}
-knitr::include_graphics("https://MartinSchweinberger.github.io/SLAT7806/images/steps.png")
+```{r steps, echo=FALSE, out.width= "100%", out.extra='style="float:left; padding:15px"'}
+knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/master/images/steps.png?raw=true")
 ```
 
 
