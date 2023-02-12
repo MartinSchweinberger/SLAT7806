@@ -70,3 +70,13 @@ effect-sizes-in-chi-square
 histograms-and-bar-plots
 presenting-and-analzing-data
 presenting-and-analyzing-data
+preface
+course-description
+course-staff
+timetable
+course-aims
+flipped-classroom-design
+learning-resources
+teaching-learning-activities
+course-plan
+assessments
