@@ -1,6 +1,6 @@
-# Research of Text and Talk
+# Discourse Analysis and Situated Language
 
-In today's **SLAT7806 Research Methods** lecture, we delve into the exploration of text and talk, which collectively constitute **discourse**. While discourse is often synonymous with language in use, or language and context, it's important to recognize the nuanced differences between these terms, even though they are closely related.
+In today's **SLAT7806 Research Methods** lecture, we delve into the exploration of discourse analysis and situated language use, which collectively constitute **discourse**. While discourse is often synonymous with language in use, or language and context, it's important to recognize the nuanced differences between these terms, even though they are closely related.
 
 When we examine discourse, we're essentially scrutinizing how language functions in various contexts, whether written or spoken. For the purpose of this lecture, we'll treat terms like discourse, language in use, text, and talk as interchangeable. 
 

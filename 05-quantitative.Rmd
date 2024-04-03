@@ -1,9 +1,6 @@
 # Quantitative Research
 
-
-Hi, everyone, and thank you for joining me for today's lecture. The topic we're going to be discussing today is quantitative research. 
-
-## Outline
+In today's **SLAT7806 Research Methods** lecture, we delve into discussing quantitative research. 
 
 So, like last week, we're beginning the lecture by providing a definition of quantitative research and going through its core features. Then we're going to focus on the concept of a research variable, which is central for quantitative studies.
 
@@ -17,7 +14,7 @@ It is also the type of research that collects measurable numerical data. So, the
 
 Just like qualitative research, quantitative research is employed in many different academic disciplines. It originated in natural sciences, but then branched out into many other fields, including social sciences, medicine, journalism, and of course the humanities. If we look at linguistics and applied linguistics, quantitative methods are often used to investigate language use (corpus linguistics) and cognitive processes associated with language – (psycholinguistics, language processing and representation in the mind and brain).
 
-## Assumptions
+**Assumptions**
 
 So the assumptions that quantitative research makes about reality are quite different from those of qualitative research. So instead of perceiving reality as being socially constructed and subjective, reality is empirical and observable -  it can be broken down into parts.
 
@@ -30,7 +27,7 @@ how you measure, categorize, or define variables)
 So, I would encourage you to reflect on this for a little bit. In this scenario, it is quite easy to quantify and measure years of instruction. For instance, we can investigate a particular group of learners, for example, Chinese language learners and look at how their error rates change with the number of years that they have been studying English. 
 So, in the tutorial that will come after this lecture, we will talk about how to quantify different variables or phenomena. And I invite you to think about it beforehand. A critical aspect of quantitative research is how to operationalize variables (operationalization means how you measure, categorize, or define variables)
 
-## Falsification
+**Falsification**
 
 So, in terms of its nature, quantitative research presents a stark contrast with qualitative research. So instead of being subjective and focused on individual instances, quantitative research is falsification oriented – this means that quantitative research aim is to assess existing models and theories by testing if they are wrong.
 
@@ -44,7 +41,7 @@ The data that is collected within the scope of quantitative research is said to 
 
 And finally, one of the key aims of quantitative research is to be predictable and generalizable. So it means that if we collect enough evidence, then we're able to extrapolate the results beyond investigating to make inferences about a broader population.
 
-## Features
+**Features**
 
 Alright, so, let me summarize the features of quantitative research. So quantitative research focuses on determining causes for social phenomena, once again, what influences a particular phenomenon what affects a particular phenomenon. Usually, those observations and causes are examined either in a controlled and manipulated environment (using experimentation in a lab, or in natural settings based on corpus data). So for example, in the lab, and as a control and manipulation is exercised by the researcher, who in turn remains objective and detached from the data. So that means that the researcher is a designer and an administrator rather than a participant in their study. Corpus data could consist of transcriptions of dinner table conversations or telephone calls or essays written by university students.
 
@@ -56,7 +53,7 @@ Studies that aim at proving that two or more groups of people are different woul
 
 And lastly, any study aiming at showing the two variables are related in some way, or in statistical terms, we would use the term correlated. So here we may investigate things like whether age and success in second language acquisition are correlated. And so an assumption that we could make here is that the younger somebody starts acquiring their second language, the better the outcome is going to be.
 
-## Variables
+**Variables**
 
 So I have already used the term variables throughout the previous lectures. And I'm hoping that through the context, you're able to understand what variables mean or have an intuition of what they mean. Today, however, we're aiming to provide a more formalized definition for variables. So, quantitative research is all about measurement. 
 
@@ -76,7 +73,7 @@ So that's our dependent or outcome variable. If we're looking at how task diffic
 
 The expected relationship between the independent and dependent variables is formulated through a hypothesis. And if you recall, this relationship can be formulated as directional or non-directional. And the distinction between variables has to do with different levels of measurement. And here we focus on distinguishing between categorical and numeric or continuous variables. 
 
-## Variable scales
+**Variable scales**
 
 Let’s turn to different types of variables or variable scales. So we're going to start by discussing the categorical variables. So basically, these have to do with entities that are divided into distinct categories based on the label that they're assigned. Here we can look at nominal, categorical and ordinal variables. 
 
@@ -101,7 +98,7 @@ So if somebody has shown zero milliseconds in their reaction time to a particula
 
 So what I'm going to do is I'm going to put in some more summarizing videos that talk about different levels of variables. And hopefully, the more you get familiar with them, the clearer it becomes.
 
-## Research designs
+**Research designs**
 
 So we already know that a variety of research procedures can be employed for quantitative research design, such as instance, interviews, and questionnaires. However, today, we're going to focus in particular on experimentation, as experimentation is truly at the core of quantitative research. 
 So experiments are research procedures that are controlled and manipulated in a way that we create environments for multiple groups to be compared, or for the performance of a single group to be recorded at multiple quantities. So for example, pre and post-training, one of the groups provide a baseline for comparison, and we call the group a control group. 
@@ -117,13 +114,13 @@ In quasi-experiments, we have pre-existing participants samples or samples, and 
 
 So quasi experimentation is often more practical and reasonable venture experimentation because sometimes we're interested in the performance of a particular sample.
 
-## Corpora
+**Corpora**
 
 Another very common method in quantitative studies is the use of corpus data. Corpora are digital speech samples (transcripts of conversations, essays, news articles, blog posts, etc.). Corpora aim to provide natural language samples that should reflect either Distinct genres or text types (Specialized corpus, e.g. essays by English learners with Chinese as L1), entire languages (monitor corpus, many different text types in one language), or historical developments of a language (Historical corpus, English texts written from 1100 to 1900).
 
 What makes corpora ideal for quantitative analyses is that corpora provide frequency information about language use and often also provide information about the speakers/writers. Basic questions that can easily be answered using corpora are, for example, How is a phrase used?, How often is a word used in American vs British English? Or How often is a word used together with other words (e.g. Merry + Christmas – co-occurring words are called collocations).
 
-## Descriptive and inferential statistics
+**Descriptive and inferential statistics**
 
 Now, since quantitative findings are presented numerically, it is important to understand what kind of numerical values we're interested in, and what other ways of presenting our data, and to do that we need to understand the distinction between descriptive and inferential statistics. So descriptive and inferential statistics differ and what they are doing. 
 
@@ -145,7 +142,7 @@ And finally, we can also look at the mode or the value that occurs most frequent
 
 In this week's tutorial, we'll be practicing producing descriptive statistics for a specific data set. Now, just like the qualitative approach to research, quantitative studies also have their strengths and weaknesses, which means that in some situations that are more applicable than others. So let's begin with discussing the positives of quantitative research.
 
-## Strengths and weaknesses 
+**Strengths and weaknesses**
 
 So first of all, the quantitative approach is going to be especially useful for addressing specific questions about the relatively well-defined phenomenon. So if you think that your research interest lies within those parameters, a quantitative approach is going to apply to the study that you decide to conduct.
 
@@ -158,7 +155,7 @@ This, of course, can be quite challenging, especially when you're researching co
 
 Another criticism of quantitative research is that it has a somewhat artificial nature and also a narrow focus of quantitative studies. Finally, we can say that employing statistical methods for analysis is usually perceived as more inaccessible to untrained researchers in comparison to qualitative interpretive analysis, which means that not a lot of researchers are inclined to give quantitative approaches ago.
 
-## Key points
+**Key points**
 
 All right, so let's consolidate what we have discussed today. Quantitative research aims to test a specific hypothesis (to see if certain explanations align with reality or not) and they aim to quantify relationships between phenomena – but they can also be used to explore data.
 

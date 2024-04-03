@@ -15,7 +15,7 @@ library(dplyr)
 ```
 
 
-## Basic principles of data vis
+**Basic principles of data vis**
 
 On a very general level, graphs should be used to inform the reader about properties and relationships between variables. This implies that...
 
@@ -26,7 +26,7 @@ On a very general level, graphs should be used to inform the reader about proper
 - graphs should be as intuitive as possible and should not mislead the reader.
 
 
-## Creating a simple graph
+**Creating a simple graph**
 
 When creating a visualization with ggplot, we first use the function `ggplot` and define the data that the visualization will use, then, we define the aesthetics which define the layout, i.e. the x- and y-axes. 
 
@@ -88,7 +88,7 @@ dat %>%
 
 
 
-## Line Graphs
+**Line Graphs**
 
 Line graphs are used when we have numeric values that are linked in one way or another, e.g., because they display a time series (in our case we should actually not use a line graph but we do it to exemplify how it is done). 
 
@@ -106,7 +106,7 @@ dat %>%
 
 
 
-## Histograms and Bar plots
+**Histograms and Bar plots**
 
 Histograms summarize numeric variables by showing their distribution across bins. 
 
@@ -141,7 +141,7 @@ dat %>%
 
 Compared with the pie chart, it is much easier to grasp the relative size and order of the percentage values which shows that pie charts are unfit to show relationships between elements in a graph and, as a general rule of thumb, should be avoided.
 
-## Boxplots
+**Boxplots**
 
 So far, we have plotted values but we have not plotted the underlying distributions. For instance, we have plotted mean values but not the variance within the distribution. One handy way to combine plotting general trends and their underlying distributions are boxplots.
 
@@ -156,7 +156,7 @@ ggplot(dat, aes(Class, TestScores, color = Class)) +
 
 
 
-## (Pearsons's) Chi-Square Test
+**(Pearsons's) Chi-Square Test**
 
 One of the most frequently used statistical test in linguistics is the $\chi$^2^ test (or Pearsons's chi-square test, chi-squared test, or chi-square test). We will use a simple, practical example to explore how this test works. In this example, we will test whether speakers of American English (AmE) and speakers of British English (BrE) differ in their use of the near-synonyms *sort of* and *kind of* as in "*He's sort of stupid*" and "*He's kind of stupid*". As a first step, we formulate the hypothesis that we want to test (H~1~) and its null hypothesis (H~0~). The alternative- or test hypothesis reads:
 
@@ -401,7 +401,7 @@ Since the $\chi$^2^ value that we have calculated is much higher than the critic
 
 Before we summarize the results, we will calculate the effect size which is a measure for how strong the correlations are.
 
-### Effect Sizes in Chi-Square
+**Effect Sizes in Chi-Square**
 
 Effect sizes are important because they correlations may be highly significant but the effect between variables can be extremely weak. The effect size is therefore a measure how strong the correlation or the explanatory and predictive power between variables is.
 

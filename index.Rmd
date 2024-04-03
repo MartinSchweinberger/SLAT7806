@@ -9,9 +9,9 @@ biblio-style: apalike
 link-citations: yes
 ---
 
-# Preface 
+# About the Course 
 
-## Course Description 
+**Course Description** 
 
 This course is an introduction to research methodology in language learning and teaching. It covers the skills needed to plan and carry out various types of postgraduate research, ranging from course papers to the dissertation.
 
@@ -23,7 +23,7 @@ Weekly Online Tasks, which were restricted to the first half of the semester, ha
 
 
 
-## Course Staff 
+**Course Staff** 
 
 ```{r martin, echo=FALSE, out.width= "20%", out.extra='style="float:right; padding:15px"'}
 knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/master/images/martin.png?raw=true")
@@ -73,7 +73,7 @@ Email: ceara\@thechalkcrew.com
 
 Office: St Lucia campus, Gordon Greenwood Building
 
-## Timetable 
+**Timetable** 
 
 Timetables are available on the UQ Public Timetable.
 
@@ -83,7 +83,7 @@ Students will be advised of any changes in advance. Dates and times for make-up 
 
 If a due date falls on a public holiday, the next workday automatically becomes the due date. The dates and times for make-up classes are announced and made available to students in advance via Blackboard.
 
-## Course Aims 
+**Course Aims**
 
 
 The course aims to introduce research methodology in (applied) linguistics and second language studies. It will present the fundamental skills needed to plan and carry out various types of postgraduate research, ranging from structuring course papers and dissertation, to basic practical data collection and analysis tools and techniques. Topics examined include the nature and types of research, research quality and planning, honesty and ethics in research, library and database searches, developing a research topic and literature review, preparing a research proposal, and critical reading and writing skills. Course assessments will provide the opportunity to apply these skills in relevant research tasks.
@@ -103,7 +103,7 @@ After successfully completing this course you should be able to:
 5.  Identify, locate, and effectively use research materials relevant to your field of study
 
 
-## Flipped Classroom Design
+**Flipped Classroom Design**
 
 This is a flipped course with both online and face-to-face components.
 
@@ -117,7 +117,7 @@ This is a flipped course with both online and face-to-face components.
 All resources above are essential for successful assessment completion!
 
 
-## Learning Resources 
+**Learning Resources** 
 
 
 
@@ -166,11 +166,11 @@ The University offers a range of resources and services to support student learn
 
 See Blackboard for Learning Resources. 
 
-## Teaching & Learning Activities 
+**Teaching & Learning Activities** 
 
 Recording of Lectures: Please be aware that teaching at UQ may be recorded for the benefit of student learning. If you would prefer not to be captured either by voice or image, please advise your course coordinator before class so accommodations can be made. For further information see PPL 3.20.06 Recording of Teaching at UQ.
 
-## Course plan 
+**Course plan** 
 
 ```{r tt, echo = F, eval = T, message=FALSE, warning=FALSE}
 library(dplyr)
@@ -225,7 +225,7 @@ Weekly learning activities consist of a one-hour online lecture (available via t
 There may be minor changes to the learning activities due to public holidays. Students will be advised on the date and timing of the make-up class in advance on Blackboard.
 
 
-## Assessments 
+**Assessments** 
 
 
 ```{r ass, echo = F, eval = T, message=FALSE, warning=FALSE}

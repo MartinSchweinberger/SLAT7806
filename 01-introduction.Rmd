@@ -233,7 +233,7 @@ Finally, it is crucial to know that literature review is an essential foundation
 
 
 
-## The Scientific Circle {-}
+**The Scientific Circle**
 
 
 Empirical research typically follows the scheme described below. This scheme is also referred to as the *scientific circle* and we will use the example of having lost your keys to exemplify how it works.
@@ -282,9 +282,9 @@ A slightly more elaborate depiction of this scenario with the equivalent steps i
 We will stop here with our introduction to quantitative reasoning. If you are interested in learning more, we highly recommend that you continue with [our tutorial on basic concepts in quantitative research](https://slcladal.github.io/basicquant.html).
 
 
-## Activities {-}
+**Activities**
 
-### Activity 1: Who are you? {-}
+**Activity 1: Who are you?**
 
 This activity aims to give you an idea about your fellow students and to get acquainted with them.
 
@@ -299,7 +299,7 @@ You will be sent into break-out rooms in small groups. Introduce yourself to the
 8.	What do you think this course will teach you?  
 
 
-### Activity 2: What is research? {-}
+**Activity 2: What is research?**
 
 This activity aims at making you reflect on research and the characteristics of scientific inquiry.
 
@@ -310,7 +310,7 @@ You will be sent into break out rooms in small groups, please discuss the follow
 3.	How can we distinguish research from unscientific activities?  
 4.	Discuss why research needs to be methodological.  
 
-### Activity 3: Is this research? (Scenarios taken from Borg, 2009) {-}
+**Activity 3: Is this research? (Scenarios taken from Borg, 2009)**
 
 The purpose of this activity to elicit your view on the kinds of activities that can be called research. There are no right or wrong answers. Read each description below and choose one answer to say to what extent you feel the activity described is an example of research by selecting one of the following answer options, and then give reasons.
 
@@ -332,7 +332,7 @@ points in those readings.
 5. Two teachers were both interested in improving discipline in their classes. They observed each other’s lessons once a week for three months and made notes about how they controlled their classes. They discussed their notes and wrote a short article about what they learned for the newsletter of the national language
 teachers’ association.		
 
-### Activity 4: Types of research {-}
+**Activity 4: Types of research**
 
 What types of research correspond to what number?
 
@@ -341,7 +341,7 @@ knitr::include_graphics("https://github.com/MartinSchweinberger/SLAT7806/blob/ma
 ```
 
 
-### Activity 5: Conducting research {-}
+**Activity 5: Conducting research**
 
 Put the following possible steps of conducting a research project in an order that you think is appropriate.
 
